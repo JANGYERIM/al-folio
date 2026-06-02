@@ -7,22 +7,68 @@ nav: false
 
 <style>
 /* ── Lab homepage custom styles ── */
-.lab-subtitle {
+
+/* Hero section */
+.lab-hero {
   text-align: center;
+  padding: 3rem 1rem 2.75rem;
+}
+.lab-hero-badge {
+  display: inline-block;
+  background: #f0fdf4;
+  color: #15803d;
+  border: 1px solid #bbf7d0;
+  border-radius: 20px;
+  padding: 0.3rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+}
+.lab-hero-title {
+  font-size: 2.6rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 0 0 0.75rem;
+  line-height: 1.15;
+}
+.lab-hero-tagline {
   font-size: 1.1rem;
-  color: #64748b;
-  margin-top: -0.5rem;
-  margin-bottom: 0.5rem;
-  letter-spacing: 0.02em;
-}
-.lab-tagline {
-  text-align: center;
-  font-size: 1.15rem;
   color: #334155;
-  max-width: 640px;
-  margin: 1rem auto 2.5rem;
-  line-height: 1.7;
+  max-width: 580px;
+  margin: 0 auto 2rem;
+  line-height: 1.75;
 }
+.lab-hero-btns {
+  display: flex;
+  gap: 0.85rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.btn-hero-primary {
+  display: inline-block;
+  background: #1e293b;
+  color: #fff !important;
+  padding: 0.7rem 1.75rem;
+  border-radius: 8px;
+  text-decoration: none !important;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: background 0.2s;
+}
+.btn-hero-primary:hover { background: #0f172a; }
+.btn-hero-secondary {
+  display: inline-block;
+  background: transparent;
+  color: #1e293b !important;
+  padding: 0.68rem 1.75rem;
+  border-radius: 8px;
+  border: 2px solid #cbd5e1;
+  text-decoration: none !important;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: border-color 0.2s, background 0.2s;
+}
+.btn-hero-secondary:hover { border-color: #94a3b8; background: #f8fafc; }
 .lab-divider {
   border: none;
   border-top: 2px solid #e2e8f0;
@@ -151,10 +197,17 @@ nav: false
 .btn-contact:hover { background: #1d4ed8; }
 </style>
 
-<p class="lab-subtitle">@ Kyung Hee University</p>
-<p class="lab-tagline">
-  We advance multimodal AI to <strong>see</strong>, <strong>understand</strong>, and <strong>reason</strong> about the visual world — bridging vision, language, audio, and autonomous perception.
-</p>
+<div class="lab-hero">
+  <div class="lab-hero-badge">✨ Visual AI Lab @ Kyung Hee University</div>
+  <h1 class="lab-hero-title">Visual AI Lab</h1>
+  <p class="lab-hero-tagline">
+    We advance multimodal AI to <strong>see</strong>, <strong>understand</strong>, and <strong>reason</strong> about the visual world — bridging vision, language, audio, and autonomous perception.
+  </p>
+  <div class="lab-hero-btns">
+    <a href="{{ '/contact/' | relative_url }}" class="btn-hero-primary">How to Join</a>
+    <a href="{{ '/publications/' | relative_url }}" class="btn-hero-secondary">Publications</a>
+  </div>
+</div>
 
 <hr class="lab-divider">
 

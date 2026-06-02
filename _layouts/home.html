@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+  <!-- AOS (Animate on Scroll) -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- Lab Custom CSS -->
+  <link rel="stylesheet" href="{{ '/assets/css/lab.css' | relative_url }}">
+</head>
+
+<body class="index-page">
+
+  <!-- ======= Header ======= -->
+  <header class="lab-header">
+    <div class="container" style="max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;justify-content:space-between;">
+
+      <a href="{{ '/' | relative_url }}" class="logo" style="display:flex;align-items:center;text-decoration:none;margin-right:auto;">
+        <h1 class="sitename" style="font-size:26px;margin:0;font-weight:700;color:#fff;font-family:'Montserrat',sans-serif;">Visual AI Lab</h1><span style="font-size:30px;padding-left:2px;color:#208bf4;line-height:1;">.</span>
+      </a>
+
+      <nav id="lab-navmenu" class="lab-navmenu">
+        <ul>
+          <li><a href="{{ '/' | relative_url }}" class="active">Home</a></li>
+          <li class="dropdown">
+            <a href="{{ '/professor/' | relative_url }}">
+              <span>Team</span>
+              <i class="bi bi-chevron-down toggle-dropdown"></i>
+            </a>
+            <ul>
+              <li><a href="{{ '/professor/' | relative_url }}">Professor</a></li>
+              <li><a href="{{ '/members/' | relative_url }}">Members</a></li>
+            </ul>
+          </li>
+          <li><a href="{{ '/publications/' | relative_url }}">Publications</a></li>
+          <li><a href="{{ '/research/' | relative_url }}">Research</a></li>
+          <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle bi bi-list" style="display:none;"></i>
+      </nav>
+
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <main class="lab-main">
+    {{ content }}
+  </main>
+
+  <!-- ======= Footer ======= -->
+  <footer class="lab-footer">
+    <div class="footer-top">
+
+      <div class="footer-about">
+        <span class="logo-text">Visual AI Lab.</span>
+        <p>Visual AI Lab @ Kyung Hee University — advancing multimodal AI to see, understand, and reason about the visual world.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Links</h4>
+        <ul>
+          <li><a href="{{ '/' | relative_url }}">Home</a></li>
+          <li><a href="{{ '/professor/' | relative_url }}">Team</a></li>
+          <li><a href="{{ '/publications/' | relative_url }}">Publications</a></li>
+          <li><a href="{{ '/research/' | relative_url }}">Research</a></li>
+          <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p>Dept. of Artificial Intelligence</p>
+        <p>Kyung Hee University</p>
+        <p>Yongin-si, Gyeonggi-do, South Korea</p>
+        <p style="margin-top:8px;"><a href="mailto:{{ site.email }}" style="color:var(--accent-color);">{{ site.email }}</a></p>
+      </div>
+
+    </div>
+
+    <div class="copyright">
+      <p>&copy; 2025 Visual AI Lab, Kyung Hee University. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio</a>.</p>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <!-- Scroll Top -->
+  <a href="#" class="scroll-top-btn">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+  <!-- Lab Custom JS -->
+  <script src="{{ '/assets/js/lab.js' | relative_url }}"></script>
+
+  <!-- Mobile nav show/hide icon via media query -->
+  <script>
+    (function() {
+      var toggle = document.querySelector('.mobile-nav-toggle');
+      function checkBreakpoint() {
+        toggle.style.display = window.innerWidth < 768 ? 'block' : 'none';
+      }
+      checkBreakpoint();
+      window.addEventListener('resize', checkBreakpoint);
+    })();
+  </script>
+
+</body>
+</html>

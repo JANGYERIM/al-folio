@@ -62,7 +62,7 @@ nav: false
 
     <div class="about-col-image" data-aos="fade-up" data-aos-delay="300">
       <div class="about-single-image">
-        <img id="campus-img" src="" alt="Campus" style="width:100%;border-radius:12px;object-fit:cover;max-height:420px;">
+        <img id="campus-img" src="" alt="Campus">
       </div>
     </div>
 

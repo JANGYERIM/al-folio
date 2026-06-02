@@ -4,24 +4,70 @@
   }
 </style> <link rel="stylesheet" href="/al-folio/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/al-folio/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%91%81%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/al-folio/assets/css/main.css?v=9278fad11fbb7f97e25b00cf0f4948af"> <link rel="canonical" href="https://jangyerim.github.io/al-folio/"> <script src="/al-folio/assets/js/theme.js?v=7af685e2ba20b37fef545c97b8064050"></script> <link defer rel="stylesheet" href="/al-folio/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
     initTheme();
-  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item active"> <a class="nav-link" href="/al-folio/">Visual AI Lab <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/al-folio/people/">People </a> </li> <li class="nav-item "> <a class="nav-link" href="/al-folio/research/">Research </a> </li> <li class="nav-item "> <a class="nav-link" href="/al-folio/publications/">Publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/al-folio/contact/">Contact </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">Visual AI Lab</h1> <p class="post-description"></p> </header> <article> <style>
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item active"> <a class="nav-link" href="/al-folio/">Visual AI Lab <span class="sr-only">(current)</span> </a> </li> <li class="nav-item dropdown "> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-nav-dropdown-toggle="true" aria-haspopup="true" aria-expanded="false">Team </a> <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown"> <a class="dropdown-item " href="/al-folio/professor/">Professor</a> <a class="dropdown-item " href="/al-folio/members/">Members</a> </div> </li> <li class="nav-item "> <a class="nav-link" href="/al-folio/publications/">Publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/al-folio/research/">Research </a> </li> <li class="nav-item "> <a class="nav-link" href="/al-folio/contact/">Contact </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">Visual AI Lab</h1> <p class="post-description"></p> </header> <article> <style>
 /* ── Lab homepage custom styles ── */
-.lab-subtitle {
+
+/* Hero section */
+.lab-hero {
   text-align: center;
+  padding: 3rem 1rem 2.75rem;
+}
+.lab-hero-badge {
+  display: inline-block;
+  background: #f0fdf4;
+  color: #15803d;
+  border: 1px solid #bbf7d0;
+  border-radius: 20px;
+  padding: 0.3rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+}
+.lab-hero-title {
+  font-size: 2.6rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 0 0 0.75rem;
+  line-height: 1.15;
+}
+.lab-hero-tagline {
   font-size: 1.1rem;
-  color: #64748b;
-  margin-top: -0.5rem;
-  margin-bottom: 0.5rem;
-  letter-spacing: 0.02em;
-}
-.lab-tagline {
-  text-align: center;
-  font-size: 1.15rem;
   color: #334155;
-  max-width: 640px;
-  margin: 1rem auto 2.5rem;
-  line-height: 1.7;
+  max-width: 580px;
+  margin: 0 auto 2rem;
+  line-height: 1.75;
 }
+.lab-hero-btns {
+  display: flex;
+  gap: 0.85rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.btn-hero-primary {
+  display: inline-block;
+  background: #1e293b;
+  color: #fff !important;
+  padding: 0.7rem 1.75rem;
+  border-radius: 8px;
+  text-decoration: none !important;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: background 0.2s;
+}
+.btn-hero-primary:hover { background: #0f172a; }
+.btn-hero-secondary {
+  display: inline-block;
+  background: transparent;
+  color: #1e293b !important;
+  padding: 0.68rem 1.75rem;
+  border-radius: 8px;
+  border: 2px solid #cbd5e1;
+  text-decoration: none !important;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: border-color 0.2s, background 0.2s;
+}
+.btn-hero-secondary:hover { border-color: #94a3b8; background: #f8fafc; }
 .lab-divider {
   border: none;
   border-top: 2px solid #e2e8f0;
@@ -148,7 +194,7 @@
   transition: background 0.2s;
 }
 .btn-contact:hover { background: #1d4ed8; }
-</style> <p class="lab-subtitle">@ Kyung Hee University</p> <p class="lab-tagline"> We advance multimodal AI to <strong>see</strong>, <strong>understand</strong>, and <strong>reason</strong> about the visual world — bridging vision, language, audio, and autonomous perception. </p> <hr class="lab-divider"> <h2 class="section-heading">Research Areas</h2> <div class="research-grid"> <div class="research-card"> <div class="research-card-icon">🎥</div> <h3>Multimodal Learning</h3> <p class="card-sub">Vision · Language · Audio</p> <ul> <li>Dense Video Captioning</li> <li>Video Question Grounding</li> <li>Video Moment Retrieval</li> <li>Change Captioning</li> <li>Sound Source Localization</li> </ul> </div> <div class="research-card"> <div class="research-card-icon">🚗</div> <h3>Autonomous Driving</h3> <p class="card-sub">Perception · Prediction · Safety</p> <ul> <li>Trajectory Prediction</li> <li>3D Object Detection</li> <li>Pedestrian Detection</li> </ul> </div> <div class="research-card"> <div class="research-card-icon">🔗</div> <h3>Multi-task Learning</h3> <p class="card-sub">Shared Representation · Efficiency</p> <ul> <li>Shared Representation Learning</li> <li>Task-Adaptive Architectures</li> <li>Cross-task Knowledge Transfer</li> </ul> </div> </div> <hr class="lab-divider"> <h2 class="section-heading">Latest News</h2> <ul class="news-list"> <li> <span class="news-date">Mar 2025</span> <span> Visual AI Lab officially opened at Kyung Hee University. We are recruiting motivated MS/PhD students! </span> </li> <li> <span class="news-date">Feb 2025</span> <span> One paper accepted at CVPR 2025 on Dense Video Captioning. Congratulations to all co-authors! </span> </li> <li> <span class="news-date">Jan 2025</span> <span> One paper accepted at AAAI 2025 on Video Moment Retrieval. Congrats! </span> </li> <li> <span class="news-date">Sep 2024</span> <span> One paper accepted at NeurIPS 2024 on Trajectory Prediction for Autonomous Driving. </span> </li> <li> <span class="news-date">Jul 2024</span> <span> One paper accepted at ECCV 2024 on Sound Source Localization. Great work! </span> </li> </ul> <hr class="lab-divider"> <div class="recruiting-banner"> <h2>We Are Recruiting!</h2> <p> We are looking for motivated <strong style="color:#fff;">MS / PhD students</strong> and <strong style="color:#fff;">research interns</strong><br> who are passionate about computer vision and multimodal AI research. </p> <a href="mailto:visualai@khu.ac.kr" class="btn-contact">Contact Us</a> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 . © 2025 Visual AI Lab, Kyung Hee University. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. </div> </footer> <script>
+</style> <div class="lab-hero"> <div class="lab-hero-badge">✨ Visual AI Lab @ Kyung Hee University</div> <h1 class="lab-hero-title">Visual AI Lab</h1> <p class="lab-hero-tagline"> We advance multimodal AI to <strong>see</strong>, <strong>understand</strong>, and <strong>reason</strong> about the visual world — bridging vision, language, audio, and autonomous perception. </p> <div class="lab-hero-btns"> <a href="/al-folio/contact/" class="btn-hero-primary">How to Join</a> <a href="/al-folio/publications/" class="btn-hero-secondary">Publications</a> </div> </div> <hr class="lab-divider"> <h2 class="section-heading">Research Areas</h2> <div class="research-grid"> <div class="research-card"> <div class="research-card-icon">🎥</div> <h3>Multimodal Learning</h3> <p class="card-sub">Vision · Language · Audio</p> <ul> <li>Dense Video Captioning</li> <li>Video Question Grounding</li> <li>Video Moment Retrieval</li> <li>Change Captioning</li> <li>Sound Source Localization</li> </ul> </div> <div class="research-card"> <div class="research-card-icon">🚗</div> <h3>Autonomous Driving</h3> <p class="card-sub">Perception · Prediction · Safety</p> <ul> <li>Trajectory Prediction</li> <li>3D Object Detection</li> <li>Pedestrian Detection</li> </ul> </div> <div class="research-card"> <div class="research-card-icon">🔗</div> <h3>Multi-task Learning</h3> <p class="card-sub">Shared Representation · Efficiency</p> <ul> <li>Shared Representation Learning</li> <li>Task-Adaptive Architectures</li> <li>Cross-task Knowledge Transfer</li> </ul> </div> </div> <hr class="lab-divider"> <h2 class="section-heading">Latest News</h2> <ul class="news-list"> <li> <span class="news-date">Mar 2025</span> <span> Visual AI Lab officially opened at Kyung Hee University. We are recruiting motivated MS/PhD students! </span> </li> <li> <span class="news-date">Feb 2025</span> <span> One paper accepted at CVPR 2025 on Dense Video Captioning. Congratulations to all co-authors! </span> </li> <li> <span class="news-date">Jan 2025</span> <span> One paper accepted at AAAI 2025 on Video Moment Retrieval. Congrats! </span> </li> <li> <span class="news-date">Sep 2024</span> <span> One paper accepted at NeurIPS 2024 on Trajectory Prediction for Autonomous Driving. </span> </li> <li> <span class="news-date">Jul 2024</span> <span> One paper accepted at ECCV 2024 on Sound Source Localization. Great work! </span> </li> </ul> <hr class="lab-divider"> <div class="recruiting-banner"> <h2>We Are Recruiting!</h2> <p> We are looking for motivated <strong style="color:#fff;">MS / PhD students</strong> and <strong style="color:#fff;">research interns</strong><br> who are passionate about computer vision and multimodal AI research. </p> <a href="mailto:visualai@khu.ac.kr" class="btn-contact">Contact Us</a> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 . © 2025 Visual AI Lab, Kyung Hee University. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. </div> </footer> <script>
   window.alFolio = {
     compatBootstrap: false
   };
@@ -166,12 +212,26 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/al-folio/";
     },
-  },{id: "nav-people",
-          title: "People",
-          description: "",
+  },{id: "dropdown-professor",
+              title: "Professor",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/al-folio/professor/";
+              },
+            },{id: "dropdown-members",
+              title: "Members",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/al-folio/members/";
+              },
+            },{id: "nav-publications",
+          title: "Publications",
+          description: "Publications by Visual AI Lab in reversed chronological order.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/people/";
+            window.location.href = "/al-folio/publications/";
           },
         },{id: "nav-research",
           title: "Research",
@@ -179,13 +239,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/al-folio/research/";
-          },
-        },{id: "nav-publications",
-          title: "Publications",
-          description: "Publications by Visual AI Lab in reversed chronological order.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/al-folio/publications/";
           },
         },{id: "nav-contact",
           title: "Contact",

@@ -12,7 +12,7 @@ nav: false
     <div class="hero-col-text" data-aos="fade-up" data-aos-delay="100">
       <div class="hero-content">
         <div class="hero-badge">
-          <span class="badge">✨ Visual AI Lab has Launched!</span>
+          <span class="badge">✨ Visual AI Lab @KHU</span>
         </div>
         <h1>Visual AI Lab.</h1>
         <div class="hero-buttons">
@@ -33,6 +33,7 @@ nav: false
   </div>
 
   <div class="hero-background">
+    <img src="{{ '/assets/img/home/monoWAD_result.gif' | relative_url }}" class="hero-bg-video" alt="" aria-hidden="true">
     <div class="hero-bg-overlay"></div>
     <div class="hero-bg-overlay"></div>
     <div class="hero-bg-overlay-grid"></div>
@@ -60,15 +61,20 @@ nav: false
     </div>
 
     <div class="about-col-image" data-aos="fade-up" data-aos-delay="300">
-      <div class="image-stack">
-        <div class="image-card image-primary">
-          <img src="{{ '/assets/img/1.jpg' | relative_url }}" alt="Lab collaboration">
-        </div>
-        <div class="image-card image-secondary">
-          <img src="{{ '/assets/img/2.jpg' | relative_url }}" alt="Research workspace">
-        </div>
+      <div class="about-single-image">
+        <img id="campus-img" src="" alt="Campus" style="width:100%;border-radius:12px;object-fit:cover;max-height:420px;">
       </div>
     </div>
+
+    <script>
+      (function() {
+        var base = '{{ site.baseurl }}';
+        var imgs = [1,2,3,4,5,6,7].map(function(n) {
+          return base + '/assets/img/home/campus' + n + '.jpg';
+        });
+        document.getElementById('campus-img').src = imgs[Math.floor(Math.random() * imgs.length)];
+      })();
+    </script>
 
   </div>
 

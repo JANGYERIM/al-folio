@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-07-01 09:00:00+0900
+date: 2026-04-15 09:00:00+0900
 inline: true
 related_posts: false
 ---
 
-One paper accepted at **ECCV 2024** on Sound Source Localization. Great work!
+1 paper is accepted as a **Highlight Paper of CVPR 2026**. Congratulations!

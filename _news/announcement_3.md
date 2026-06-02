@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-09-25 09:00:00+0900
+date: 2026-02-26 09:00:00+0900
 inline: true
 related_posts: false
 ---
 
-One paper accepted at **NeurIPS 2024** on Trajectory Prediction for Autonomous Driving.
+4 papers are accepted to **CVPR 2026** (3 Main, 1 Findings). Congratulations!

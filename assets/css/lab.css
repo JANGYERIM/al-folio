@@ -1019,22 +1019,46 @@ img { max-width: 100%; }
 .team-member {
   background-color: var(--surface-color);
   border-radius: 8px;
+  overflow: hidden;
   text-align: center;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
   position: relative;
   will-change: transform;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.05);
 }
 
 .team-member:hover {
   transform: scale(1.05) !important;
-  box-shadow: 0 0 0 1px rgba(255,255,255,0.08), 0 8px 28px rgba(0,0,0,0.6), 0 0 20px rgba(32,139,244,0.2) !important;
+  box-shadow: 0 0 0 1px rgba(32, 139, 244, 0.4), 0 0 28px rgba(32, 139, 244, 0.25) !important;
   z-index: 2;
 }
 
-.team-member .member-image { line-height: 0; }
+.team-member .member-image {
+  line-height: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.team-member .member-image::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+  opacity: 0;
+  transition: opacity 0.1s ease;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.team-member:hover .member-image::before {
+  opacity: 0.8;
+}
 
 .team-member .member-image img {
-  border-radius: 8px 8px 0 0;
+  border-radius: 0;
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
@@ -1047,7 +1071,7 @@ img { max-width: 100%; }
 
 .team-member .member-content .member-rep {
   display: block;
-  font-size: 0.88rem;
+  font-size: 1rem;
   font-weight: 600;
   color: #f0c040;
   margin-bottom: 4px;
@@ -1055,28 +1079,28 @@ img { max-width: 100%; }
 }
 
 .team-member .member-content h3 {
-  font-size: 0.95rem;
+  font-size: 1.1rem;
   font-weight: 600;
-  margin-bottom: 3px;
+  margin-bottom: 4px;
 }
 
 .team-member .member-content .member-role {
-  font-size: 0.78rem;
+  font-size: 0.9rem;
   color: var(--accent-color);
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 6px;
   font-weight: 600;
 }
 
 .team-member .member-content .member-research {
-  font-size: 0.76rem;
+  font-size: 0.88rem;
   color: color-mix(in srgb, var(--default-color), transparent 35%);
-  margin-bottom: 4px;
+  margin-bottom: 5px;
   line-height: 1.5;
 }
 
 .team-member .member-content .member-email {
-  font-size: 0.73rem;
+  font-size: 0.83rem;
   color: color-mix(in srgb, var(--default-color), transparent 40%);
   margin-bottom: 0;
   word-break: break-all;

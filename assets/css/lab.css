@@ -1044,13 +1044,12 @@ img { max-width: 100%; }
 /* Student grid */
 .member-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
   margin-bottom: 0.5rem;
 }
 
-@media (max-width: 1024px) { .member-grid { grid-template-columns: repeat(3, 1fr); } }
-@media (max-width: 640px)  { .member-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 768px) { .member-grid { grid-template-columns: repeat(2, 1fr); } }
 
 /* Student card */
 .team-member {
@@ -1069,11 +1068,10 @@ img { max-width: 100%; }
 .team-member .member-image { margin-bottom: 0.9rem; }
 
 .team-member .member-image img {
-  border-radius: 50%;
-  width: 90px;
-  height: 90px;
+  border-radius: 8px;
+  width: 100%;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
-  border: 2px solid color-mix(in srgb, var(--default-color), transparent 80%);
 }
 
 .team-member .member-content h3 {

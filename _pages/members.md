@@ -110,6 +110,7 @@ nav: false
           <img src="{{ '/assets/img/team/Soyeon%20Lee.jpg' | relative_url }}" alt="Soyeon Lee">
         </div>
         <div class="member-content">
+          <span class="member-rep">👑 Student Representative</span>
           <h3>Soyeon Lee</h3>
           <span class="member-role">M.S. Student</span>
           <p class="member-research">Multimodal Learning<br>Dense Video Captioning, Video QA</p>

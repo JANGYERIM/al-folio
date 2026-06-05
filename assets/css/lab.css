@@ -1044,34 +1044,40 @@ img { max-width: 100%; }
 /* Student grid */
 .member-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1.25rem;
   margin-bottom: 0.5rem;
 }
 
+@media (max-width: 900px) { .member-grid { grid-template-columns: repeat(3, 1fr); } }
 @media (max-width: 768px) { .member-grid { grid-template-columns: repeat(2, 1fr); } }
 
 /* Student card */
 .team-member {
   background-color: var(--surface-color);
   border-radius: 8px;
-  padding: 1.25rem;
+  overflow: hidden;
   text-align: center;
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .team-member:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+  transform: scale(1.03);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
 }
 
-.team-member .member-image { margin-bottom: 0.9rem; }
+.team-member .member-image { line-height: 0; }
 
 .team-member .member-image img {
-  border-radius: 8px;
+  border-radius: 0;
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
+  display: block;
+}
+
+.team-member .member-content {
+  padding: 0.75rem 1rem 0.9rem;
 }
 
 .team-member .member-content h3 {

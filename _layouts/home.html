@@ -33,9 +33,9 @@
 
       <nav id="lab-navmenu" class="lab-navmenu">
         <ul>
-          <li><a href="{{ '/' | relative_url }}" class="active">Home</a></li>
+          <li><a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>Home</a></li>
           <li class="dropdown">
-            <a href="{{ '/professor/' | relative_url }}">
+            <a href="{{ '/professor/' | relative_url }}"{% if page.url contains '/professor' or page.url contains '/members' %} class="active"{% endif %}>
               <span>Team</span>
               <i class="bi bi-chevron-down toggle-dropdown"></i>
             </a>
@@ -44,9 +44,9 @@
               <li><a href="{{ '/members/' | relative_url }}">Members</a></li>
             </ul>
           </li>
-          <li><a href="{{ '/publications/' | relative_url }}">Publications</a></li>
-          <li><a href="{{ '/research/' | relative_url }}">Research</a></li>
-          <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+          <li><a href="{{ '/publications/' | relative_url }}"{% if page.url contains '/publications' %} class="active"{% endif %}>Publications</a></li>
+          <li><a href="{{ '/research/' | relative_url }}"{% if page.url contains '/research' %} class="active"{% endif %}>Research</a></li>
+          <li><a href="{{ '/contact/' | relative_url }}"{% if page.url contains '/contact' %} class="active"{% endif %}>Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle bi bi-list" style="display:none;"></i>
       </nav>

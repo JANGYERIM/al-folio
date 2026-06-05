@@ -1,104 +1,94 @@
 ---
-layout: page
+layout: home
 title: Professor
 permalink: /professor/
 nav: false
 ---
 
-<style>
-.people-section-title {
-  font-size: 1.3rem;
-  font-weight: 700;
-  color: #1e293b;
-  margin: 2.5rem 0 1.25rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid #e2e8f0;
-}
-.professor-card {
-  display: flex;
-  gap: 2rem;
-  align-items: flex-start;
-  background: #f8fafc;
-  border: 1px solid #e2e8f0;
-  border-radius: 14px;
-  padding: 2rem;
-  margin-bottom: 1rem;
-}
-.professor-card img {
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid #e2e8f0;
-  flex-shrink: 0;
-}
-.professor-info h2 {
-  font-size: 1.4rem;
-  font-weight: 700;
-  color: #1e293b;
-  margin-bottom: 0.3rem;
-}
-.professor-info .prof-title {
-  color: #2563eb;
-  font-size: 0.95rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-}
-.professor-info .prof-affil {
-  color: #64748b;
-  font-size: 0.9rem;
-  margin-bottom: 0.75rem;
-}
-.professor-info p {
-  color: #475569;
-  font-size: 0.92rem;
-  line-height: 1.7;
-  margin-bottom: 1rem;
-}
-.prof-links a {
-  display: inline-block;
-  margin-right: 0.75rem;
-  color: #2563eb;
-  font-size: 0.85rem;
-  text-decoration: none;
-  font-weight: 500;
-}
-.prof-links a:hover { text-decoration: underline; }
-.avatar-placeholder-lg {
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  background: #e2e8f0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 4rem;
-  flex-shrink: 0;
-  border: 3px solid #e2e8f0;
-}
-@media (max-width: 640px) {
-  .professor-card { flex-direction: column; align-items: center; text-align: center; }
-  .prof-links { text-align: center; }
-}
-</style>
+<section class="team-section">
 
-<h2 class="people-section-title">Professor</h2>
+  <div class="lab-container section-title" data-aos="fade-up">
+    <h2>Team</h2>
+    <div><span>Our Lab</span> <span class="description-title">Members</span></div>
+  </div>
 
-<div class="professor-card">
-  <div class="avatar-placeholder-lg">👨‍🏫</div>
-  <div class="professor-info">
-    <h2>Jung Uk Kim</h2>
-    <div class="prof-title">Assistant Professor</div>
-    <div class="prof-affil">Dept. of Artificial Intelligence, Kyung Hee University</div>
-    <p>
-      Prof. Jung Uk Kim leads the Visual AI Lab at Kyung Hee University.
-      His research spans multimodal learning, autonomous driving perception, and multi-task learning —
-      with a focus on building AI systems that can see, understand, and reason about the visual world.
-    </p>
-    <div class="prof-links">
-      <a href="mailto:visualai@khu.ac.kr">✉ Email</a>
-      <a href="#">Google Scholar</a>
-      <a href="#">CV</a>
+  <div class="lab-container">
+
+    <div class="team-header" data-aos="fade-up">
+      <h2>Professor</h2>
+    </div>
+
+    <div class="team-member-row" data-aos="fade-up">
+      <div class="member-image">
+        <img src="{{ '/assets/img/person.svg' | relative_url }}" alt="Prof. Jung Uk Kim">
+      </div>
+      <div class="member-content">
+        <h3>Jung Uk Kim</h3>
+        <span>
+          Assistant Professor (2022.09 – present)<br>
+          School of Computing, Kyung Hee University
+        </span>
+        <p><i class="bi bi-envelope"></i>&nbsp; <a href="mailto:ju.kim@khu.ac.kr">ju.kim@khu.ac.kr</a></p>
+        <p><i class="bi bi-telephone"></i>&nbsp; +82-31-201-3768</p>
+        <p><i class="bi bi-geo-alt"></i>&nbsp; Electronic Information College Building #325-3</p>
+        <p>
+          <a href="https://visualai.khu.ac.kr/people/professor" target="_blank"><i class="bi bi-globe"></i>&nbsp;Homepage</a>
+          <a href="#"><i class="bi bi-mortarboard"></i>&nbsp;Google Scholar</a>
+          <a href="#"><i class="bi bi-file-text"></i>&nbsp;CV</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="team-header team-subsection" data-aos="fade-up">
+      <h2>Education</h2>
+    </div>
+
+    <div data-aos="fade-up" style="padding: 0 0 2rem;">
+      <table class="alumni-table" style="background: var(--surface-color); border-radius: 8px;">
+        <thead>
+          <tr>
+            <th>Degree</th>
+            <th>Institution</th>
+            <th>Period</th>
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ph.D.</td>
+            <td>School of Electrical Engineering, KAIST</td>
+            <td>Mar. 2018 – Aug. 2022</td>
+            <td><span class="now-at">Advisor: Prof. Yong Man Ro</span></td>
+          </tr>
+          <tr>
+            <td>M.S.</td>
+            <td>School of Electrical Engineering, KAIST</td>
+            <td>Mar. 2016 – Feb. 2018</td>
+            <td><span class="now-at">Advisor: Prof. Yong Man Ro</span></td>
+          </tr>
+          <tr>
+            <td>B.S.</td>
+            <td>Electrical Engineering, Ajou University</td>
+            <td>Mar. 2012 – Feb. 2016</td>
+            <td><span class="now-at">Summa Cum Laude</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</section>
+
+<section class="join-section">
+  <div class="lab-container" data-aos="fade-up">
+    <div class="join-inner" style="max-width:100%;padding:0;">
+      <div class="cta-banner">
+        <div class="cta-text">
+          <div class="cta-badge">Want to join us?</div>
+          <h3>We Are Recruiting Students &amp; Interns</h3>
+          <p>We welcome highly motivated M.S./Ph.D. students and undergraduate interns. If you are interested in our lab, please send your CV, transcript, and research interests to Prof. Kim.</p>
+        </div>
+      </div>
     </div>
   </div>
-</div>
+</section>

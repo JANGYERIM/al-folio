@@ -1061,7 +1061,9 @@ img { max-width: 100%; }
 .team-member .member-image img {
   border-radius: 0;
   width: 100%;
-  height: auto;
+  aspect-ratio: 864 / 1003;
+  object-fit: cover;
+  object-position: top;
   display: block;
 }
 

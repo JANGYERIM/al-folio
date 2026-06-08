@@ -268,6 +268,29 @@ nav: false
   </div>
 </section>
 
+<script>
+(function() {
+  function equalizeTeamCards() {
+    var cards = document.querySelectorAll('.team-member');
+    /* reset */
+    cards.forEach(function(c) { c.style.height = ''; });
+    /* find tallest */
+    var maxH = 0;
+    cards.forEach(function(c) { if (c.offsetHeight > maxH) maxH = c.offsetHeight; });
+    /* apply to all */
+    cards.forEach(function(c) { c.style.height = maxH + 'px'; });
+  }
+  window.addEventListener('load', function() {
+    setTimeout(equalizeTeamCards, 200);
+  });
+  window.addEventListener('resize', function() {
+    /* reset first so natural heights can be recalculated */
+    document.querySelectorAll('.team-member').forEach(function(c) { c.style.height = ''; });
+    equalizeTeamCards();
+  });
+})();
+</script>
+
 <section class="join-section">
   <div class="lab-container" data-aos="fade-up">
     <div class="join-inner" style="max-width:100%;padding:0;">

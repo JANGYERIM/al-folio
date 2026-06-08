@@ -22,7 +22,7 @@ nav: false
 
     <div class="pub-container">
 
-      <!-- ════════════ INTERNATIONAL ════════════ -->
+      <!-- ════════════ 2026 INTERNATIONAL ════════════ -->
 
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
@@ -258,6 +258,8 @@ nav: false
         </div>
       </div>
 
+      <!-- ════════════ 2025 INTERNATIONAL ════════════ -->
+
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
@@ -421,284 +423,7 @@ nav: false
         </div>
       </div>
 
-      <div class="publication-item filter-international" data-aos="fade-up">
-        <div class="publication-card">
-          <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">ECCV</span>
-              <span class="venue-year">2024</span>
-            </div>
-          </div>
-          <div class="card-content">
-            <div class="meta">
-              <span class="category">International Conference</span>
-              <span class="year">ECCV 2024</span>
-            </div>
-            <h3>Learning Trimodal Relation for Audio-Visual Question Answering with Missing Modality</h3>
-            <p class="author">Kyu Ri Park, Hong Joo Lee, <b>Jung Uk Kim</b></p>
-            <p class="description">European Conference on Computer Vision (ECCV), 2024</p>
-            <div class="link">
-              <a class="btn btn-outline btn-sm" target="_blank" href="https://arxiv.org/pdf/2407.16171"><i class="bi bi-file-earmark-pdf-fill"></i> Paper</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="publication-item filter-international" data-aos="fade-up">
-        <div class="publication-card">
-          <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">ECCV</span>
-              <span class="venue-year">2024</span>
-            </div>
-          </div>
-          <div class="card-content">
-            <div class="meta">
-              <span class="category">International Conference</span>
-              <span class="year">ECCV 2024</span>
-            </div>
-            <h3>MonoWAD: Weather-Adaptive Diffusion Model for Robust Monocular 3D Object Detection</h3>
-            <p class="author">Youngmin Oh, Hyung-Il Kim, Seong Tae Kim, <b>Jung Uk Kim</b></p>
-            <p class="description">European Conference on Computer Vision (ECCV), 2024</p>
-            <div class="link">
-              <a class="btn btn-outline btn-sm" target="_blank" href="https://arxiv.org/pdf/2407.16448"><i class="bi bi-file-earmark-pdf-fill"></i> Paper</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="publication-item filter-international" data-aos="fade-up">
-        <div class="publication-card">
-          <div class="card-image">
-            <div class="tag oral">Oral</div>
-            <div class="pub-placeholder">
-              <span class="venue-abbr">ECCV</span>
-              <span class="venue-year">2024</span>
-            </div>
-          </div>
-          <div class="card-content">
-            <div class="meta">
-              <span class="category">International Conference</span>
-              <span class="year">ECCV 2024</span>
-            </div>
-            <h3>Towards Model-Agnostic Dataset Condensation by Heterogeneous Models</h3>
-            <p class="author">Jun-Yeong Moon, <b>Jung Uk Kim</b>, Gyeong-Moon Park</p>
-            <p class="description">European Conference on Computer Vision (ECCV), 2024</p>
-            <div class="link">
-              <span class="badge-oral">Oral</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="publication-item filter-international" data-aos="fade-up">
-        <div class="publication-card">
-          <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">CVPR</span>
-              <span class="venue-year">2024</span>
-            </div>
-          </div>
-          <div class="card-content">
-            <div class="meta">
-              <span class="category">International Conference</span>
-              <span class="year">CVPR 2024</span>
-            </div>
-            <h3>Learning to Visually Localize Sound Sources from Mixtures without Prior Source Knowledge</h3>
-            <p class="author">Dongjin Kim, Sung Jin Um, Sangmin Lee, <b>Jung Uk Kim</b></p>
-            <p class="description">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024</p>
-            <div class="link">
-              <a class="btn btn-outline btn-sm" target="_blank" href="https://arxiv.org/pdf/2403.17420"><i class="bi bi-file-earmark-pdf-fill"></i> Paper</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="publication-item filter-international" data-aos="fade-up">
-        <div class="publication-card">
-          <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">ICASSP</span>
-              <span class="venue-year">2024</span>
-            </div>
-          </div>
-          <div class="card-content">
-            <div class="meta">
-              <span class="category">International Conference</span>
-              <span class="year">ICASSP 2024</span>
-            </div>
-            <h3>Enhancing Audio-Visual Question Answering with Missing Modality via Trans-Modal Associative Learning</h3>
-            <p class="author">Kyu Ri Park, Youngmin Oh, <b>Jung Uk Kim</b></p>
-            <p class="description">IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2024</p>
-            <div class="link">
-              <a class="btn btn-outline btn-sm" target="_blank" href="https://ieeexplore.ieee.org/abstract/document/10446292"><i class="bi bi-file-earmark-pdf-fill"></i> Paper</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="publication-item filter-international" data-aos="fade-up">
-        <div class="publication-card">
-          <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">IEEE Access</span>
-              <span class="venue-year">2024</span>
-            </div>
-          </div>
-          <div class="card-content">
-            <div class="meta">
-              <span class="category">International Journal</span>
-              <span class="year">IEEE Access 2024</span>
-            </div>
-            <h3>Robust Airway Generation Labeling with Airway Segmentation for Reliable Airway Assessment</h3>
-            <p class="author">Mincheol Song, Jin An, Kyu Ri Park, Jeongmi Lee, Jinkyeong Park, <b>Jung Uk Kim</b></p>
-            <p class="description">IEEE Access, 2024</p>
-            <div class="link">
-              <a class="btn btn-outline btn-sm" target="_blank" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10605782"><i class="bi bi-file-earmark-pdf-fill"></i> Paper</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="publication-item filter-international" data-aos="fade-up">
-        <div class="publication-card">
-          <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">ACM MM</span>
-              <span class="venue-year">2023</span>
-            </div>
-          </div>
-          <div class="card-content">
-            <div class="meta">
-              <span class="category">International Conference</span>
-              <span class="year">ACM MM 2023</span>
-            </div>
-            <h3>Audio-Visual Spatial Integration and Recursive Attention for Robust Sound Source Localization</h3>
-            <p class="author">Sung Jin Um*, Dongjin Kim*, <b>Jung Uk Kim</b></p>
-            <p class="description">ACM International Conference on Multimedia (ACM MM), 2023</p>
-            <div class="link">
-              <a class="btn btn-outline btn-sm" target="_blank" href="https://arxiv.org/pdf/2308.06087.pdf"><i class="bi bi-file-earmark-pdf-fill"></i> Paper</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="publication-item filter-international" data-aos="fade-up">
-        <div class="publication-card">
-          <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">ICCV</span>
-              <span class="venue-year">2023</span>
-            </div>
-          </div>
-          <div class="card-content">
-            <div class="meta">
-              <span class="category">International Conference</span>
-              <span class="year">ICCV 2023</span>
-            </div>
-            <h3>Online Class Incremental Learning on Stochastic Blurry Task Boundary via Mask and Visual Prompt Tuning</h3>
-            <p class="author">Jun-Yeong Moon, KeonHee Park, <b>Jung Uk Kim</b>*, Gyeong-Moon Park*</p>
-            <p class="description">IEEE/CVF International Conference on Computer Vision (ICCV), 2023</p>
-            <div class="link">
-              <a class="btn btn-outline btn-sm" target="_blank" href="https://openaccess.thecvf.com/content/ICCV2023/papers/Moon_Online_Class_Incremental_Learning_on_Stochastic_Blurry_Task_Boundary_via_ICCV_2023_paper.pdf"><i class="bi bi-file-earmark-pdf-fill"></i> Paper</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="publication-item filter-international" data-aos="fade-up">
-        <div class="publication-card">
-          <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">TIP</span>
-              <span class="venue-year">2023</span>
-            </div>
-          </div>
-          <div class="card-content">
-            <div class="meta">
-              <span class="category">International Journal</span>
-              <span class="year">IEEE TIP 2023</span>
-            </div>
-            <h3>Stereoscopic Vision Recalling Memory for Monocular 3D Object Detection</h3>
-            <p class="author"><b>Jung Uk Kim</b>, Hyung-Il Kim, Yong Man Ro</p>
-            <p class="description">IEEE Transactions on Image Processing (TIP, IF: 13.7), 2023</p>
-            <div class="link">
-              <a class="btn btn-outline btn-sm" target="_blank" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10124171"><i class="bi bi-file-earmark-pdf-fill"></i> Paper</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="publication-item filter-international" data-aos="fade-up">
-        <div class="publication-card">
-          <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">ICIP</span>
-              <span class="venue-year">2023</span>
-            </div>
-          </div>
-          <div class="card-content">
-            <div class="meta">
-              <span class="category">International Conference</span>
-              <span class="year">ICIP 2023</span>
-            </div>
-            <h3>Robust Multispectral Pedestrian Detection Via Spectral Position-Free Feature Mapping</h3>
-            <p class="author">Sungjune Park, <b>Jung Uk Kim</b>, Jin Mo Song, Yong Man Ro</p>
-            <p class="description">IEEE International Conference on Image Processing (ICIP), 2023</p>
-            <div class="link">
-              <a class="btn btn-outline btn-sm" target="_blank" href="https://ieeexplore.ieee.org/abstract/document/10222485"><i class="bi bi-file-earmark-pdf-fill"></i> Paper</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="publication-item filter-international" data-aos="fade-up">
-        <div class="publication-card">
-          <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">ICASSP</span>
-              <span class="venue-year">2023</span>
-            </div>
-          </div>
-          <div class="card-content">
-            <div class="meta">
-              <span class="category">International Conference</span>
-              <span class="year">ICASSP 2023</span>
-            </div>
-            <h3>Towards Robust Audio-Based Vehicle Detection via Importance-Aware Audio-Visual Learning</h3>
-            <p class="author"><b>Jung Uk Kim</b>, Seong Tae Kim</p>
-            <p class="description">IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2023</p>
-            <div class="link">
-              <a class="btn btn-outline btn-sm" target="_blank" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10096773"><i class="bi bi-file-earmark-pdf-fill"></i> Paper</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="publication-item filter-international" data-aos="fade-up">
-        <div class="publication-card">
-          <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">ICASSP</span>
-              <span class="venue-year">2023</span>
-            </div>
-          </div>
-          <div class="card-content">
-            <div class="meta">
-              <span class="category">International Conference</span>
-              <span class="year">ICASSP 2023</span>
-            </div>
-            <h3>Similarity Relation Preserving Cross-Modal Learning for Multispectral Pedestrian Detection Against Adversarial Attacks</h3>
-            <p class="author"><b>Jung Uk Kim</b>, Yong Man Ro</p>
-            <p class="description">IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2023</p>
-            <div class="link">
-              <a class="btn btn-outline btn-sm" target="_blank" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10096549"><i class="bi bi-file-earmark-pdf-fill"></i> Paper</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- ════════════ DOMESTIC ════════════ -->
+      <!-- ════════════ 2025 DOMESTIC ════════════ -->
 
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
@@ -976,6 +701,149 @@ nav: false
         </div>
       </div>
 
+      <!-- ════════════ 2024 INTERNATIONAL ════════════ -->
+
+      <div class="publication-item filter-international" data-aos="fade-up">
+        <div class="publication-card">
+          <div class="card-image">
+            <div class="pub-placeholder">
+              <span class="venue-abbr">ECCV</span>
+              <span class="venue-year">2024</span>
+            </div>
+          </div>
+          <div class="card-content">
+            <div class="meta">
+              <span class="category">International Conference</span>
+              <span class="year">ECCV 2024</span>
+            </div>
+            <h3>Learning Trimodal Relation for Audio-Visual Question Answering with Missing Modality</h3>
+            <p class="author">Kyu Ri Park, Hong Joo Lee, <b>Jung Uk Kim</b></p>
+            <p class="description">European Conference on Computer Vision (ECCV), 2024</p>
+            <div class="link">
+              <a class="btn btn-outline btn-sm" target="_blank" href="https://arxiv.org/pdf/2407.16171"><i class="bi bi-file-earmark-pdf-fill"></i> Paper</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="publication-item filter-international" data-aos="fade-up">
+        <div class="publication-card">
+          <div class="card-image">
+            <div class="pub-placeholder">
+              <span class="venue-abbr">ECCV</span>
+              <span class="venue-year">2024</span>
+            </div>
+          </div>
+          <div class="card-content">
+            <div class="meta">
+              <span class="category">International Conference</span>
+              <span class="year">ECCV 2024</span>
+            </div>
+            <h3>MonoWAD: Weather-Adaptive Diffusion Model for Robust Monocular 3D Object Detection</h3>
+            <p class="author">Youngmin Oh, Hyung-Il Kim, Seong Tae Kim, <b>Jung Uk Kim</b></p>
+            <p class="description">European Conference on Computer Vision (ECCV), 2024</p>
+            <div class="link">
+              <a class="btn btn-outline btn-sm" target="_blank" href="https://arxiv.org/pdf/2407.16448"><i class="bi bi-file-earmark-pdf-fill"></i> Paper</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="publication-item filter-international" data-aos="fade-up">
+        <div class="publication-card">
+          <div class="card-image">
+            <div class="tag oral">Oral</div>
+            <div class="pub-placeholder">
+              <span class="venue-abbr">ECCV</span>
+              <span class="venue-year">2024</span>
+            </div>
+          </div>
+          <div class="card-content">
+            <div class="meta">
+              <span class="category">International Conference</span>
+              <span class="year">ECCV 2024</span>
+            </div>
+            <h3>Towards Model-Agnostic Dataset Condensation by Heterogeneous Models</h3>
+            <p class="author">Jun-Yeong Moon, <b>Jung Uk Kim</b>, Gyeong-Moon Park</p>
+            <p class="description">European Conference on Computer Vision (ECCV), 2024</p>
+            <div class="link">
+              <span class="badge-oral">Oral</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="publication-item filter-international" data-aos="fade-up">
+        <div class="publication-card">
+          <div class="card-image">
+            <div class="pub-placeholder">
+              <span class="venue-abbr">CVPR</span>
+              <span class="venue-year">2024</span>
+            </div>
+          </div>
+          <div class="card-content">
+            <div class="meta">
+              <span class="category">International Conference</span>
+              <span class="year">CVPR 2024</span>
+            </div>
+            <h3>Learning to Visually Localize Sound Sources from Mixtures without Prior Source Knowledge</h3>
+            <p class="author">Dongjin Kim, Sung Jin Um, Sangmin Lee, <b>Jung Uk Kim</b></p>
+            <p class="description">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024</p>
+            <div class="link">
+              <a class="btn btn-outline btn-sm" target="_blank" href="https://arxiv.org/pdf/2403.17420"><i class="bi bi-file-earmark-pdf-fill"></i> Paper</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="publication-item filter-international" data-aos="fade-up">
+        <div class="publication-card">
+          <div class="card-image">
+            <div class="pub-placeholder">
+              <span class="venue-abbr">ICASSP</span>
+              <span class="venue-year">2024</span>
+            </div>
+          </div>
+          <div class="card-content">
+            <div class="meta">
+              <span class="category">International Conference</span>
+              <span class="year">ICASSP 2024</span>
+            </div>
+            <h3>Enhancing Audio-Visual Question Answering with Missing Modality via Trans-Modal Associative Learning</h3>
+            <p class="author">Kyu Ri Park, Youngmin Oh, <b>Jung Uk Kim</b></p>
+            <p class="description">IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2024</p>
+            <div class="link">
+              <a class="btn btn-outline btn-sm" target="_blank" href="https://ieeexplore.ieee.org/abstract/document/10446292"><i class="bi bi-file-earmark-pdf-fill"></i> Paper</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="publication-item filter-international" data-aos="fade-up">
+        <div class="publication-card">
+          <div class="card-image">
+            <div class="pub-placeholder">
+              <span class="venue-abbr">IEEE Access</span>
+              <span class="venue-year">2024</span>
+            </div>
+          </div>
+          <div class="card-content">
+            <div class="meta">
+              <span class="category">International Journal</span>
+              <span class="year">IEEE Access 2024</span>
+            </div>
+            <h3>Robust Airway Generation Labeling with Airway Segmentation for Reliable Airway Assessment</h3>
+            <p class="author">Mincheol Song, Jin An, Kyu Ri Park, Jeongmi Lee, Jinkyeong Park, <b>Jung Uk Kim</b></p>
+            <p class="description">IEEE Access, 2024</p>
+            <div class="link">
+              <a class="btn btn-outline btn-sm" target="_blank" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10605782"><i class="bi bi-file-earmark-pdf-fill"></i> Paper</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ════════════ 2024 DOMESTIC ════════════ -->
+
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
@@ -1137,6 +1005,148 @@ nav: false
         </div>
       </div>
 
+      <!-- ════════════ 2023 INTERNATIONAL ════════════ -->
+
+      <div class="publication-item filter-international" data-aos="fade-up">
+        <div class="publication-card">
+          <div class="card-image">
+            <div class="pub-placeholder">
+              <span class="venue-abbr">ACM MM</span>
+              <span class="venue-year">2023</span>
+            </div>
+          </div>
+          <div class="card-content">
+            <div class="meta">
+              <span class="category">International Conference</span>
+              <span class="year">ACM MM 2023</span>
+            </div>
+            <h3>Audio-Visual Spatial Integration and Recursive Attention for Robust Sound Source Localization</h3>
+            <p class="author">Sung Jin Um*, Dongjin Kim*, <b>Jung Uk Kim</b></p>
+            <p class="description">ACM International Conference on Multimedia (ACM MM), 2023</p>
+            <div class="link">
+              <a class="btn btn-outline btn-sm" target="_blank" href="https://arxiv.org/pdf/2308.06087.pdf"><i class="bi bi-file-earmark-pdf-fill"></i> Paper</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="publication-item filter-international" data-aos="fade-up">
+        <div class="publication-card">
+          <div class="card-image">
+            <div class="pub-placeholder">
+              <span class="venue-abbr">ICCV</span>
+              <span class="venue-year">2023</span>
+            </div>
+          </div>
+          <div class="card-content">
+            <div class="meta">
+              <span class="category">International Conference</span>
+              <span class="year">ICCV 2023</span>
+            </div>
+            <h3>Online Class Incremental Learning on Stochastic Blurry Task Boundary via Mask and Visual Prompt Tuning</h3>
+            <p class="author">Jun-Yeong Moon, KeonHee Park, <b>Jung Uk Kim</b>*, Gyeong-Moon Park*</p>
+            <p class="description">IEEE/CVF International Conference on Computer Vision (ICCV), 2023</p>
+            <div class="link">
+              <a class="btn btn-outline btn-sm" target="_blank" href="https://openaccess.thecvf.com/content/ICCV2023/papers/Moon_Online_Class_Incremental_Learning_on_Stochastic_Blurry_Task_Boundary_via_ICCV_2023_paper.pdf"><i class="bi bi-file-earmark-pdf-fill"></i> Paper</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="publication-item filter-international" data-aos="fade-up">
+        <div class="publication-card">
+          <div class="card-image">
+            <div class="pub-placeholder">
+              <span class="venue-abbr">TIP</span>
+              <span class="venue-year">2023</span>
+            </div>
+          </div>
+          <div class="card-content">
+            <div class="meta">
+              <span class="category">International Journal</span>
+              <span class="year">IEEE TIP 2023</span>
+            </div>
+            <h3>Stereoscopic Vision Recalling Memory for Monocular 3D Object Detection</h3>
+            <p class="author"><b>Jung Uk Kim</b>, Hyung-Il Kim, Yong Man Ro</p>
+            <p class="description">IEEE Transactions on Image Processing (TIP, IF: 13.7), 2023</p>
+            <div class="link">
+              <a class="btn btn-outline btn-sm" target="_blank" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10124171"><i class="bi bi-file-earmark-pdf-fill"></i> Paper</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="publication-item filter-international" data-aos="fade-up">
+        <div class="publication-card">
+          <div class="card-image">
+            <div class="pub-placeholder">
+              <span class="venue-abbr">ICIP</span>
+              <span class="venue-year">2023</span>
+            </div>
+          </div>
+          <div class="card-content">
+            <div class="meta">
+              <span class="category">International Conference</span>
+              <span class="year">ICIP 2023</span>
+            </div>
+            <h3>Robust Multispectral Pedestrian Detection Via Spectral Position-Free Feature Mapping</h3>
+            <p class="author">Sungjune Park, <b>Jung Uk Kim</b>, Jin Mo Song, Yong Man Ro</p>
+            <p class="description">IEEE International Conference on Image Processing (ICIP), 2023</p>
+            <div class="link">
+              <a class="btn btn-outline btn-sm" target="_blank" href="https://ieeexplore.ieee.org/abstract/document/10222485"><i class="bi bi-file-earmark-pdf-fill"></i> Paper</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="publication-item filter-international" data-aos="fade-up">
+        <div class="publication-card">
+          <div class="card-image">
+            <div class="pub-placeholder">
+              <span class="venue-abbr">ICASSP</span>
+              <span class="venue-year">2023</span>
+            </div>
+          </div>
+          <div class="card-content">
+            <div class="meta">
+              <span class="category">International Conference</span>
+              <span class="year">ICASSP 2023</span>
+            </div>
+            <h3>Towards Robust Audio-Based Vehicle Detection via Importance-Aware Audio-Visual Learning</h3>
+            <p class="author"><b>Jung Uk Kim</b>, Seong Tae Kim</p>
+            <p class="description">IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2023</p>
+            <div class="link">
+              <a class="btn btn-outline btn-sm" target="_blank" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10096773"><i class="bi bi-file-earmark-pdf-fill"></i> Paper</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="publication-item filter-international" data-aos="fade-up">
+        <div class="publication-card">
+          <div class="card-image">
+            <div class="pub-placeholder">
+              <span class="venue-abbr">ICASSP</span>
+              <span class="venue-year">2023</span>
+            </div>
+          </div>
+          <div class="card-content">
+            <div class="meta">
+              <span class="category">International Conference</span>
+              <span class="year">ICASSP 2023</span>
+            </div>
+            <h3>Similarity Relation Preserving Cross-Modal Learning for Multispectral Pedestrian Detection Against Adversarial Attacks</h3>
+            <p class="author"><b>Jung Uk Kim</b>, Yong Man Ro</p>
+            <p class="description">IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2023</p>
+            <div class="link">
+              <a class="btn btn-outline btn-sm" target="_blank" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10096549"><i class="bi bi-file-earmark-pdf-fill"></i> Paper</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ════════════ 2023 DOMESTIC ════════════ -->
+
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
@@ -1254,6 +1264,8 @@ nav: false
         </div>
       </div>
 
+      <!-- ════════════ 2022 DOMESTIC ════════════ -->
+
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
@@ -1283,6 +1295,17 @@ nav: false
 
 <script>
 (function() {
+  /* Inject hover overlay into every card-image */
+  document.querySelectorAll('.publication .card-image').forEach(function(cardImg) {
+    var overlay = document.createElement('div');
+    overlay.className = 'overlay';
+    var btn = document.createElement('span');
+    btn.className = 'icon-btn';
+    btn.innerHTML = '<i class="bi bi-arrows-fullscreen"></i>';
+    overlay.appendChild(btn);
+    cardImg.appendChild(overlay);
+  });
+
   var filters = document.querySelectorAll('.publication-filters li');
   var items = document.querySelectorAll('.publication-item');
   filters.forEach(function(btn) {

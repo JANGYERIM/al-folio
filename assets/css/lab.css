@@ -1186,3 +1186,169 @@ img { max-width: 100%; }
   font-size: 0.78rem;
   color: color-mix(in srgb, var(--default-color), transparent 40%);
 }
+
+/* ─── Publications Section ─────────────────────────────── */
+.pub-section { padding: 60px 0 80px; }
+
+.pub-filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 48px;
+  padding: 0;
+  list-style: none;
+}
+
+@media (max-width: 768px) { .pub-filters { gap: 8px; margin-bottom: 32px; } }
+
+.pub-filters .filter-btn {
+  padding: 10px 24px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background-color: var(--surface-color);
+  color: var(--default-color);
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 80%);
+  user-select: none;
+}
+
+.pub-filters .filter-btn:hover {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+}
+
+.pub-filters .filter-btn.filter-active {
+  background-color: var(--accent-color);
+  color: #fff;
+  border-color: var(--accent-color);
+  box-shadow: 0 4px 12px color-mix(in srgb, var(--accent-color), transparent 70%);
+}
+
+.pub-list { display: flex; flex-direction: column; }
+
+.pub-card {
+  background-color: var(--surface-color);
+  border-radius: 12px;
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 88%);
+  padding: 20px 26px;
+  margin-bottom: 14px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.pub-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 0 1px rgba(32,139,244,0.3), 0 8px 24px rgba(0,0,0,0.35);
+  border-color: color-mix(in srgb, var(--accent-color), transparent 65%);
+}
+
+.pub-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-bottom: 10px;
+}
+
+.pub-tag {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent-color);
+  background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
+  border: 1px solid color-mix(in srgb, var(--accent-color), transparent 78%);
+  padding: 3px 10px;
+  border-radius: 6px;
+  letter-spacing: 0.2px;
+}
+
+.pub-badge {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 9px;
+  border-radius: 6px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.pub-badge.highlight {
+  background-color: color-mix(in srgb, #f59e0b, transparent 85%);
+  color: #f59e0b;
+  border: 1px solid color-mix(in srgb, #f59e0b, transparent 65%);
+}
+
+.pub-badge.oral {
+  background-color: color-mix(in srgb, #10b981, transparent 82%);
+  color: #10b981;
+  border: 1px solid color-mix(in srgb, #10b981, transparent 65%);
+}
+
+.pub-badge.award {
+  background-color: color-mix(in srgb, #f0c040, transparent 82%);
+  color: #c89a00;
+  border: 1px solid color-mix(in srgb, #f0c040, transparent 65%);
+}
+
+.pub-year-badge {
+  margin-left: auto;
+  font-size: 12px;
+  font-weight: 500;
+  color: color-mix(in srgb, var(--default-color), transparent 50%);
+}
+
+.pub-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--heading-color);
+  line-height: 1.4;
+  margin-bottom: 5px;
+}
+
+.pub-authors {
+  font-size: 0.875rem;
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  margin-bottom: 3px;
+  line-height: 1.5;
+}
+
+.pub-venue {
+  font-size: 0.83rem;
+  color: color-mix(in srgb, var(--default-color), transparent 42%);
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 12px;
+}
+
+.pub-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 5px 13px;
+  border-radius: 6px;
+  background: var(--surface-color);
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 75%);
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+
+.pub-btn:hover {
+  background: color-mix(in srgb, var(--accent-color), transparent 92%);
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+  transform: translateY(-2px);
+}
+
+.pub-item[style*="display: none"] + .pub-year-group,
+.pub-year-group:has(+ .pub-item[style*="display: none"]) {
+  display: none;
+}

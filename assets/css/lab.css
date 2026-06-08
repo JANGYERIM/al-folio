@@ -1151,9 +1151,7 @@ img { max-width: 100%; }
 }
 
 /* ─── Publications Section ─────────────────────────────── */
-.pub-section { padding: 60px 0 80px; }
-
-.pub-filters {
+.publication .publication-filters {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -1163,10 +1161,12 @@ img { max-width: 100%; }
   list-style: none;
 }
 
-@media (max-width: 768px) { .pub-filters { gap: 8px; margin-bottom: 32px; } }
+@media (max-width: 768px) {
+  .publication .publication-filters { gap: 8px; margin-bottom: 32px; }
+}
 
-.pub-filters .filter-btn {
-  padding: 10px 24px;
+.publication .publication-filters li {
+  padding: 10px 22px;
   font-size: 14px;
   font-weight: 500;
   border-radius: 8px;
@@ -1178,118 +1178,170 @@ img { max-width: 100%; }
   user-select: none;
 }
 
-.pub-filters .filter-btn:hover {
+.publication .publication-filters li:hover {
   border-color: var(--accent-color);
   color: var(--accent-color);
 }
 
-.pub-filters .filter-btn.filter-active {
+.publication .publication-filters li.filter-active {
   background-color: var(--accent-color);
   color: #fff;
   border-color: var(--accent-color);
   box-shadow: 0 4px 12px color-mix(in srgb, var(--accent-color), transparent 70%);
 }
 
-.pub-list { display: flex; flex-direction: column; }
+/* Card */
+.publication .publication-item {
+  margin-bottom: 16px;
+}
 
-.pub-card {
+.publication .publication-card {
   background-color: var(--surface-color);
   border-radius: 12px;
+  overflow: hidden;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 88%);
-  padding: 20px 26px;
-  margin-bottom: 14px;
-  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: row;
+  min-height: 160px;
 }
 
-.pub-card:hover {
+.publication .publication-card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 0 0 1px rgba(32,139,244,0.3), 0 8px 24px rgba(0,0,0,0.35);
-  border-color: color-mix(in srgb, var(--accent-color), transparent 65%);
+  box-shadow: 0 0 0 1px rgba(32,139,244,0.3), 0 10px 28px rgba(0,0,0,0.4);
+  border-color: color-mix(in srgb, var(--accent-color), transparent 70%);
 }
 
-.pub-meta {
+/* Left thumbnail */
+.publication .card-image {
+  flex: 0 0 220px;
+  min-height: 160px;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg,
+    color-mix(in srgb, var(--accent-color), transparent 82%),
+    color-mix(in srgb, var(--surface-color), var(--background-color) 40%));
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 7px;
-  margin-bottom: 10px;
+  justify-content: center;
 }
 
-.pub-tag {
+.publication .card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.publication .publication-card:hover .card-image img {
+  transform: scale(1.05);
+}
+
+.publication .card-image .pub-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.publication .card-image .pub-placeholder .venue-abbr {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--accent-color);
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+
+.publication .card-image .pub-placeholder .venue-year {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: color-mix(in srgb, var(--default-color), transparent 35%);
+}
+
+/* Tag on image */
+.publication .card-image .tag {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: var(--accent-color);
+  color: #fff;
+  padding: 3px 10px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.publication .card-image .tag.highlight { background-color: #f59e0b; }
+.publication .card-image .tag.oral      { background-color: #10b981; }
+.publication .card-image .tag.award     { background-color: #e6a800; }
+
+/* Right content */
+.publication .card-content {
+  flex: 1;
+  padding: 18px 22px;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.publication .card-content .meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+
+.publication .card-content .meta .category {
   font-size: 12px;
   font-weight: 600;
   color: var(--accent-color);
-  background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
-  border: 1px solid color-mix(in srgb, var(--accent-color), transparent 78%);
-  padding: 3px 10px;
-  border-radius: 6px;
-  letter-spacing: 0.2px;
-}
-
-.pub-badge {
-  font-size: 11px;
-  font-weight: 700;
-  padding: 3px 9px;
-  border-radius: 6px;
-  letter-spacing: 0.3px;
   text-transform: uppercase;
+  letter-spacing: 0.4px;
 }
 
-.pub-badge.highlight {
-  background-color: color-mix(in srgb, #f59e0b, transparent 85%);
-  color: #f59e0b;
-  border: 1px solid color-mix(in srgb, #f59e0b, transparent 65%);
-}
-
-.pub-badge.oral {
-  background-color: color-mix(in srgb, #10b981, transparent 82%);
-  color: #10b981;
-  border: 1px solid color-mix(in srgb, #10b981, transparent 65%);
-}
-
-.pub-badge.award {
-  background-color: color-mix(in srgb, #f0c040, transparent 82%);
-  color: #c89a00;
-  border: 1px solid color-mix(in srgb, #f0c040, transparent 65%);
-}
-
-.pub-year-badge {
-  margin-left: auto;
+.publication .card-content .meta .year {
   font-size: 12px;
   font-weight: 500;
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
+  color: color-mix(in srgb, var(--default-color), transparent 45%);
 }
 
-.pub-title {
+.publication .card-content h3 {
   font-size: 1rem;
   font-weight: 700;
   color: var(--heading-color);
   line-height: 1.4;
-  margin-bottom: 5px;
+  margin-bottom: 6px;
 }
 
-.pub-authors {
-  font-size: 0.875rem;
+.publication .card-content p.author {
+  font-size: 0.85rem;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
-  margin-bottom: 3px;
+  margin-bottom: 4px;
   line-height: 1.5;
 }
 
-.pub-venue {
-  font-size: 0.83rem;
+.publication .card-content p.description {
+  font-size: 0.82rem;
   color: color-mix(in srgb, var(--default-color), transparent 42%);
   font-style: italic;
   margin-bottom: 0;
+  flex-grow: 1;
 }
 
-.pub-links {
+.publication .card-content .link {
   display: flex;
   flex-wrap: wrap;
   gap: 7px;
   margin-top: 12px;
 }
 
-.pub-btn {
+.publication .card-content .link .btn {
   display: inline-flex;
   align-items: center;
   gap: 5px;
@@ -1297,16 +1349,52 @@ img { max-width: 100%; }
   font-weight: 500;
   padding: 5px 13px;
   border-radius: 6px;
-  background: var(--surface-color);
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 75%);
   text-decoration: none;
   transition: all 0.15s ease;
+  cursor: pointer;
 }
 
-.pub-btn:hover {
+.publication .card-content .link .btn.btn-outline {
+  background: transparent;
+  color: color-mix(in srgb, var(--default-color), transparent 25%);
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 72%);
+}
+
+.publication .card-content .link .btn.btn-outline:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 92%);
   border-color: var(--accent-color);
   color: var(--accent-color);
   transform: translateY(-2px);
+}
+
+.publication .card-content .link span {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 5px 11px;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.publication .card-content .link span.badge-highlight {
+  background-color: color-mix(in srgb, #f59e0b, transparent 85%);
+  color: #f59e0b;
+  border: 1px solid color-mix(in srgb, #f59e0b, transparent 60%);
+}
+
+.publication .card-content .link span.badge-oral {
+  background-color: color-mix(in srgb, #10b981, transparent 82%);
+  color: #10b981;
+  border: 1px solid color-mix(in srgb, #10b981, transparent 60%);
+}
+
+.publication .card-content .link span.badge-award {
+  background-color: color-mix(in srgb, #f0c040, transparent 80%);
+  color: #c89a00;
+  border: 1px solid color-mix(in srgb, #f0c040, transparent 60%);
+}
+
+@media (max-width: 768px) {
+  .publication .publication-card { flex-direction: column; }
+  .publication .card-image { flex: none; width: 100%; min-height: 140px; }
 }

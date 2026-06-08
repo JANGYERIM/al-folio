@@ -1047,6 +1047,7 @@ img { max-width: 100%; }
   grid-template-columns: repeat(4, 1fr);
   gap: 1.25rem;
   margin-bottom: 0.5rem;
+  align-items: start;
 }
 
 @media (max-width: 900px) { .member-grid { grid-template-columns: repeat(3, 1fr); } }
@@ -1097,10 +1098,8 @@ img { max-width: 100%; }
 .team-member .member-image img {
   border-radius: 0;
   width: 100%;
-  aspect-ratio: 4 / 5;
-  object-fit: contain;
+  height: auto;
   display: block;
-  background-color: var(--surface-color);
 }
 
 .team-member .member-content {

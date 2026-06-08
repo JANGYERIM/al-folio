@@ -35,7 +35,7 @@ nav: false
 
       <div class="team-member" data-aos="fade-up" data-aos-delay="100">
         <div class="member-image">
-          <img src="{{ '/assets/img/person.svg' | relative_url }}" alt="YuEun Lee">
+          <img src="{{ '/assets/img/team/YuEun%20Lee.jpg' | relative_url }}" alt="YuEun Lee">
         </div>
         <div class="member-content">
           <h3>YuEun Lee</h3>

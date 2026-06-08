@@ -20,7 +20,7 @@ nav: false
 
     <div class="team-member-row" data-aos="fade-up">
       <div class="member-image">
-        <img src="{{ '/assets/img/person.svg' | relative_url }}" alt="Prof. Jung Uk Kim">
+        <img src="{{ '/assets/img/team/JungUkKim.jpg' | relative_url }}" alt="Prof. Jung Uk Kim">
       </div>
       <div class="member-content">
         <h3>Jung Uk Kim</h3>

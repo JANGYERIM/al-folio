@@ -90,14 +90,5 @@ nav: false
 
     </div><!-- end research-grid -->
 
-    <div class="research-summary" data-aos="fade-up">
-      <ul>
-        <li><i class="bi bi-check2-circle"></i> Video-Language: Moment Retrieval, Highlight Detection, Dense Video Captioning, Change Captioning, and Video QA/Grounding</li>
-        <li><i class="bi bi-check2-circle"></i> Audio-Visual: Sound Source Localization, Audio-Visual QA, and Multimodal Emotion Recognition</li>
-        <li><i class="bi bi-check2-circle"></i> Autonomous Driving: Trajectory Prediction, 3D Object Detection, and Multispectral Pedestrian Detection</li>
-        <li><i class="bi bi-check2-circle"></i> Multi-task Learning: Continual Learning, Knowledge Distillation, Domain Generalization, and Medical Imaging</li>
-      </ul>
-    </div>
-
   </div>
 </section>

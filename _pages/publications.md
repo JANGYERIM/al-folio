@@ -1321,6 +1321,12 @@ nav: false
           item.style.display = item.classList.contains(cls) ? '' : 'none';
         }
       });
+      /* Force AOS to show visible items immediately without requiring scroll */
+      items.forEach(function(item) {
+        if (item.style.display !== 'none') {
+          item.classList.add('aos-animate');
+        }
+      });
     });
   });
 })();

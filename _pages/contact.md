@@ -1,119 +1,126 @@
 ---
-layout: page
+layout: home
 title: Contact
 permalink: /contact/
-nav: true
-nav_order: 4
+nav: false
 ---
 
-<style>
-.contact-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  margin-bottom: 2rem;
-}
-@media (max-width: 640px) {
-  .contact-grid { grid-template-columns: 1fr; }
-}
-.contact-card {
-  background: #f8fafc;
-  border: 1px solid #e2e8f0;
-  border-radius: 12px;
-  padding: 1.5rem;
-}
-.contact-card h3 {
-  font-size: 1.05rem;
-  font-weight: 700;
-  color: #1e293b;
-  margin-bottom: 0.75rem;
-}
-.contact-card p, .contact-card a {
-  font-size: 0.92rem;
-  color: #475569;
-  line-height: 1.7;
-}
-.contact-card a {
-  color: #2563eb;
-  text-decoration: none;
-}
-.contact-card a:hover { text-decoration: underline; }
+<section class="contact-section section">
 
-.apply-section {
-  background: #f0f7ff;
-  border: 1px solid #bfdbfe;
-  border-radius: 14px;
-  padding: 2rem;
-  margin-bottom: 2rem;
-}
-.apply-section h2 {
-  font-size: 1.3rem;
-  font-weight: 700;
-  color: #1e40af;
-  margin-bottom: 0.75rem;
-}
-.apply-section p {
-  color: #1e3a8a;
-  font-size: 0.93rem;
-  line-height: 1.75;
-  margin-bottom: 1rem;
-}
-.apply-section ul {
-  color: #1e3a8a;
-  font-size: 0.92rem;
-  padding-left: 1.2rem;
-  margin-bottom: 1rem;
-}
-.apply-section ul li { margin-bottom: 0.3rem; }
-.btn-apply {
-  display: inline-block;
-  background: #2563eb;
-  color: #fff !important;
-  padding: 0.6rem 1.5rem;
-  border-radius: 8px;
-  text-decoration: none !important;
-  font-weight: 600;
-  font-size: 0.9rem;
-  transition: background 0.2s;
-}
-.btn-apply:hover { background: #1d4ed8; }
-</style>
-
-<div class="contact-grid">
-
-  <div class="contact-card">
-    <h3>📍 Location</h3>
-    <p>
-      Electronic Information College, Room 325-3<br>
-      Kyung Hee University<br>
-      Yongin-si, Gyeonggi-do, South Korea
-    </p>
+  <div class="lab-container section-title" data-aos="fade-up">
+    <h2>Contact</h2>
+    <div><span>Get</span> <span class="description-title">In Touch</span></div>
   </div>
 
-  <div class="contact-card">
-    <h3>✉ Email</h3>
-    <p>
-      General inquiries:<br>
-      <a href="mailto:visualai@khu.ac.kr">visualai@khu.ac.kr</a>
-    </p>
-    <p style="margin-top:0.5rem;">
-      Prof. Jung Uk Kim:<br>
-      <a href="mailto:visualai@khu.ac.kr">visualai@khu.ac.kr</a>
-    </p>
+  <div class="lab-container">
+    <div class="contact-layout">
+
+      <!-- ── Left: Channel Cards ── -->
+      <div class="contact-left" data-aos="fade-up" data-aos-delay="50">
+
+        <div class="channel-card">
+          <div class="channel-icon"><i class="bi bi-envelope-fill"></i></div>
+          <div class="channel-info">
+            <h5>Email</h5>
+            <p>Application inquiries</p>
+            <a href="mailto:visualai.khu.apply@gmail.com" class="channel-meta">visualai.khu.apply@gmail.com</a>
+            <p style="margin-top:10px;">Professor Jung Uk Kim</p>
+            <a href="mailto:ju.kim@khu.ac.kr" class="channel-meta">ju.kim@khu.ac.kr</a>
+          </div>
+        </div>
+
+        <div class="channel-card">
+          <div class="channel-icon"><i class="bi bi-telephone-fill"></i></div>
+          <div class="channel-info">
+            <h5>Phone</h5>
+            <a href="tel:+82312013768" class="channel-meta">+82-31-201-3768</a>
+          </div>
+        </div>
+
+        <div class="channel-card">
+          <div class="channel-icon"><i class="bi bi-geo-alt-fill"></i></div>
+          <div class="channel-info">
+            <h5>Office</h5>
+            <p>Professor's Office</p>
+            <span class="channel-meta">Electronic Information College, Room 325-3</span>
+            <p style="margin-top:10px;">Student Office</p>
+            <span class="channel-meta">Electronic Information College, Room 446</span>
+            <p style="margin-top:10px;">Kyung Hee University<br>Yongin-si, Gyeonggi-do, South Korea</p>
+          </div>
+        </div>
+
+      </div><!-- end contact-left -->
+
+      <!-- ── Right: Map ── -->
+      <div class="contact-right" data-aos="fade-up" data-aos-delay="100">
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.4!2d127.0466!3d37.2415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b5d1c2f9ea1c7%3A0x5b2d2c0e2a9f6b8e!2sKyung+Hee+University+International+Campus!5e0!3m2!1sen!2skr!4v1"
+            width="100%"
+            height="360"
+            style="border:0; border-radius:12px; display:block;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div><!-- end contact-right -->
+
+    </div><!-- end contact-layout -->
   </div>
 
-</div>
+</section>
 
-<div class="apply-section">
-  <h2>Prospective Students & Interns</h2>
-  <p>
-    We are always looking for highly motivated students and researchers to join our lab.
-    If you are interested in computer vision, multimodal AI, or autonomous driving research, we would love to hear from you.
-  </p>
-  <ul>
-    <li><strong>MS / PhD applicants</strong> — Send your CV, transcripts, and a brief research statement.</li>
-    <li><strong>Research interns</strong> — Send your CV and a description of your research interests.</li>
-    <li><strong>Undergraduate researchers</strong> — We welcome motivated undergraduates for research opportunities.</li>
-  </ul>
-  <a href="mailto:visualai@khu.ac.kr" class="btn-apply">Send Application</a>
-</div>
+
+<section class="apply-section section">
+
+  <div class="lab-container section-title" data-aos="fade-up">
+    <h2>Join Us</h2>
+    <div><span>We Are</span> <span class="description-title">Recruiting</span></div>
+  </div>
+
+  <div class="lab-container" data-aos="fade-up">
+
+    <p class="apply-intro">
+      We are always looking for <strong>talented and self-motivated collaborators</strong> to join our research group.
+      If you are passionate about Multimodal Learning, Computer Vision, or related areas, we would love to hear from you.
+      Please review our <a href="{{ '/research/' | relative_url }}">Research</a> page before reaching out.
+    </p>
+
+    <div class="apply-grid">
+
+      <div class="apply-card" data-aos="fade-up" data-aos-delay="50">
+        <div class="apply-card-icon"><i class="bi bi-mortarboard-fill"></i></div>
+        <h4>Graduate Students</h4>
+        <p>M.S., Ph.D., and Integrated M.S./Ph.D. programs are available. We seek students with strong motivation and interest in cutting-edge AI research.</p>
+        <ul>
+          <li><i class="bi bi-check2-circle"></i> CV / Resume</li>
+          <li><i class="bi bi-check2-circle"></i> Academic Transcript</li>
+          <li><i class="bi bi-check2-circle"></i> Brief Research Statement</li>
+        </ul>
+      </div>
+
+      <div class="apply-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="apply-card-icon"><i class="bi bi-laptop"></i></div>
+        <h4>Undergraduate Interns</h4>
+        <p>We welcome highly motivated undergraduate students for research internship opportunities.</p>
+        <ul>
+          <li><i class="bi bi-check2-circle"></i> CV / Resume</li>
+          <li><i class="bi bi-check2-circle"></i> Description of Research Interests</li>
+        </ul>
+      </div>
+
+      <div class="apply-card apply-card-cta" data-aos="fade-up" data-aos-delay="150">
+        <div class="apply-card-icon"><i class="bi bi-send-fill"></i></div>
+        <h4>How to Apply</h4>
+        <p>Send your application materials to the email below. We review applications on a rolling basis.</p>
+        <a href="mailto:visualai.khu.apply@gmail.com" class="btn-apply-cta">
+          <i class="bi bi-envelope-fill"></i> visualai.khu.apply@gmail.com
+        </a>
+      </div>
+
+    </div><!-- end apply-grid -->
+
+  </div>
+
+</section>

@@ -10,26 +10,26 @@
 }
 
 :root {
-  --background-color: #020c19;
-  --default-color: #fafdff;
-  --heading-color: #ffffff;
-  --accent-color: #208bf4;
-  --surface-color: #141e2b;
+  --background-color: #f8f9fc;
+  --default-color: #374151;
+  --heading-color: #111827;
+  --accent-color: #9c1717;
+  --surface-color: #ffffff;
   --contrast-color: #ffffff;
 }
 
 :root {
-  --nav-color: #d8e4f0;
-  --nav-hover-color: #ffffff;
-  --nav-mobile-background-color: #1b2634;
-  --nav-dropdown-background-color: #1b2634;
-  --nav-dropdown-color: #fafdff;
-  --nav-dropdown-hover-color: #208bf4;
+  --nav-color: #374151;
+  --nav-hover-color: #9c1717;
+  --nav-mobile-background-color: #ffffff;
+  --nav-dropdown-background-color: #ffffff;
+  --nav-dropdown-color: #374151;
+  --nav-dropdown-hover-color: #9c1717;
 }
 
 .light-background {
-  --background-color: #0b1727;
-  --surface-color: #101c2d;
+  --background-color: #f1f5f9;
+  --surface-color: #e8edf2;
 }
 
 :root { scroll-behavior: smooth; }
@@ -67,16 +67,17 @@ img { max-width: 100%; }
    Header
 ============================================================ */
 .lab-header {
-  --background-color: #0c1623;
-  --surface-color: #1b2430;
+  --background-color: #ffffff;
+  --surface-color: #f1f5f9;
   color: var(--default-color);
   background-color: var(--background-color);
   padding: 15px 0;
   transition: all 0.5s;
   z-index: 997;
-  border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  border-bottom: 1px solid #e5e7eb;
   position: sticky;
   top: 0;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.06);
 }
 
 .lab-header .container {
@@ -313,7 +314,7 @@ img { max-width: 100%; }
   overflow: clip;
 }
 
-.lab-main .light-background { background-color: #0b1727; }
+.lab-main .light-background { background-color: #f1f5f9; }
 
 .lab-container {
   max-width: 1200px;
@@ -502,7 +503,7 @@ img { max-width: 100%; }
 ============================================================ */
 .about-section {
   padding: 60px 0;
-  background-color: #0b1727;
+  background-color: #f1f5f9;
   color: var(--default-color);
 }
 
@@ -1030,12 +1031,12 @@ img { max-width: 100%; }
   transition: transform 0.1s ease, box-shadow 0.1s ease;
   position: relative;
   will-change: transform;
-  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
 }
 
 .team-member:hover {
   transform: scale(1.05) !important;
-  box-shadow: 0 0 0 1px rgba(32, 139, 244, 0.4), 0 0 28px rgba(32, 139, 244, 0.25) !important;
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent-color), transparent 60%), 0 0 28px color-mix(in srgb, var(--accent-color), transparent 75%) !important;
   z-index: 2;
 }
 
@@ -1186,8 +1187,8 @@ img { max-width: 100%; }
 
 .research .research-item:hover {
   transform: translateY(-8px);
-  box-shadow: 0 0 0 1px rgba(32, 139, 244, 0.35), 0 16px 40px rgba(0, 0, 0, 0.45);
-  border-color: rgba(32, 139, 244, 0.35);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent-color), transparent 65%), 0 16px 40px rgba(0, 0, 0, 0.15);
+  border-color: color-mix(in srgb, var(--accent-color), transparent 65%);
 }
 
 .research .research-item .item-image {
@@ -1346,7 +1347,7 @@ img { max-width: 100%; }
 
 .publication .publication-card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 0 0 1px rgba(32,139,244,0.3), 0 10px 28px rgba(0,0,0,0.4);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent-color), transparent 70%), 0 10px 28px rgba(0,0,0,0.12);
   border-color: color-mix(in srgb, var(--accent-color), transparent 70%);
 }
 

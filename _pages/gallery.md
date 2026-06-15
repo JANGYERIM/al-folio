@@ -22,51 +22,31 @@ nav_order: 6
       <li data-filter="study">Study</li>
     </ul>
 
-    <!-- ── Image Grid ── -->
+    <!-- ── Post Cards Grid ── -->
     <div class="gallery-grid">
 
-      {% assign daily_images = site.static_files | where_exp: "file", "file.path contains '/assets/img/gallery/daily/'" %}
-      {% assign study_images = site.static_files | where_exp: "file", "file.path contains '/assets/img/gallery/study/'" %}
-
-      {% for image in daily_images %}
-        {% unless image.name == '.gitkeep' %}
-        <div class="gallery-item daily" data-aos="fade-up">
+      {% for post in site.data.gallery %}
+      <div class="gallery-item {{ post.category }}" data-aos="fade-up">
+        <div class="gallery-card" data-post="{{ forloop.index0 }}">
           <div class="gallery-thumb">
-            <img src="{{ image.path | relative_url }}" alt="Daily {{ forloop.index }}" loading="lazy">
+            <img src="{{ post.cover | relative_url }}" alt="{{ post.title }}" loading="lazy">
             <div class="gallery-overlay">
-              <button class="gallery-zoom-btn" data-src="{{ image.path | relative_url }}" data-alt="Daily {{ forloop.index }}">
-                <i class="bi bi-arrows-fullscreen"></i>
-              </button>
+              <span class="gallery-photo-count"><i class="bi bi-images"></i> {{ post.images | size }} photos</span>
+              <button class="gallery-view-btn">View Post</button>
             </div>
-            <span class="gallery-tag">Daily</span>
+            <span class="gallery-tag">{{ post.category | capitalize }}</span>
+          </div>
+          <div class="gallery-card-info">
+            <h4>{{ post.title }}</h4>
           </div>
         </div>
-        {% endunless %}
+      </div>
       {% endfor %}
 
-      {% for image in study_images %}
-        {% unless image.name == '.gitkeep' %}
-        <div class="gallery-item study" data-aos="fade-up">
-          <div class="gallery-thumb">
-            <img src="{{ image.path | relative_url }}" alt="Study {{ forloop.index }}" loading="lazy">
-            <div class="gallery-overlay">
-              <button class="gallery-zoom-btn" data-src="{{ image.path | relative_url }}" data-alt="Study {{ forloop.index }}">
-                <i class="bi bi-arrows-fullscreen"></i>
-              </button>
-            </div>
-            <span class="gallery-tag">Study</span>
-          </div>
-        </div>
-        {% endunless %}
-      {% endfor %}
-
-      {% assign total_daily = daily_images | size %}
-      {% assign total_study = study_images | size %}
-      {% assign total = total_daily | plus: total_study %}
-      {% if total == 0 %}
+      {% if site.data.gallery.size == 0 %}
       <div class="gallery-empty">
         <i class="bi bi-images"></i>
-        <p>Images coming soon.</p>
+        <p>No posts yet.</p>
       </div>
       {% endif %}
 
@@ -78,13 +58,31 @@ nav_order: 6
 
 <!-- ── Lightbox ── -->
 <div class="gallery-lightbox" id="galleryLightbox">
-  <button class="lightbox-close" id="lightboxClose"><i class="bi bi-x-lg"></i></button>
+  <div class="lightbox-header">
+    <span class="lightbox-title" id="lightboxTitle"></span>
+    <span class="lightbox-counter" id="lightboxCounter"></span>
+    <button class="lightbox-close" id="lightboxClose"><i class="bi bi-x-lg"></i></button>
+  </div>
   <button class="lightbox-prev" id="lightboxPrev"><i class="bi bi-chevron-left"></i></button>
   <button class="lightbox-next" id="lightboxNext"><i class="bi bi-chevron-right"></i></button>
   <div class="lightbox-img-wrap">
     <img src="" alt="" id="lightboxImg">
   </div>
+  <div class="lightbox-dots" id="lightboxDots"></div>
 </div>
+
+<!-- Post data for JS -->
+<script>
+var GALLERY_POSTS = [
+  {% for post in site.data.gallery %}
+  {
+    title: {{ post.title | jsonify }},
+    category: {{ post.category | jsonify }},
+    images: [{% for img in post.images %}{{ img | relative_url | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}]
+  }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+];
+</script>
 
 <script>
 (function () {
@@ -98,39 +96,46 @@ nav_order: 6
       this.classList.add('filter-active');
       var filter = this.getAttribute('data-filter');
       items.forEach(function (item) {
-        if (filter === '*') {
-          item.style.display = '';
-        } else {
-          item.style.display = item.classList.contains(filter) ? '' : 'none';
-        }
+        item.style.display = (filter === '*' || item.classList.contains(filter)) ? '' : 'none';
         item.classList.add('aos-animate');
       });
     });
   });
 
   /* ── Lightbox ── */
-  var lightbox  = document.getElementById('galleryLightbox');
-  var lbImg     = document.getElementById('lightboxImg');
-  var lbClose   = document.getElementById('lightboxClose');
-  var lbPrev    = document.getElementById('lightboxPrev');
-  var lbNext    = document.getElementById('lightboxNext');
-  var visibleSrcs = [];
+  var lightbox   = document.getElementById('galleryLightbox');
+  var lbImg      = document.getElementById('lightboxImg');
+  var lbTitle    = document.getElementById('lightboxTitle');
+  var lbCounter  = document.getElementById('lightboxCounter');
+  var lbDots     = document.getElementById('lightboxDots');
+  var lbClose    = document.getElementById('lightboxClose');
+  var lbPrev     = document.getElementById('lightboxPrev');
+  var lbNext     = document.getElementById('lightboxNext');
+  var currentPost = null;
   var currentIdx  = 0;
 
-  function getVisible() {
-    return Array.from(document.querySelectorAll('.gallery-item'))
-      .filter(function (el) { return el.style.display !== 'none'; })
-      .map(function (el) {
-        var btn = el.querySelector('.gallery-zoom-btn');
-        return { src: btn.getAttribute('data-src'), alt: btn.getAttribute('data-alt') };
-      });
+  function renderDots(total, active) {
+    lbDots.innerHTML = '';
+    for (var i = 0; i < total; i++) {
+      var d = document.createElement('span');
+      d.className = 'lb-dot' + (i === active ? ' active' : '');
+      (function(idx) { d.addEventListener('click', function() { goTo(idx); }); })(i);
+      lbDots.appendChild(d);
+    }
   }
 
-  function openLightbox(idx) {
-    visibleSrcs = getVisible();
-    currentIdx  = idx;
-    lbImg.src   = visibleSrcs[currentIdx].src;
-    lbImg.alt   = visibleSrcs[currentIdx].alt;
+  function goTo(idx) {
+    currentIdx = idx;
+    lbImg.src = currentPost.images[currentIdx];
+    lbCounter.textContent = (currentIdx + 1) + ' / ' + currentPost.images.length;
+    renderDots(currentPost.images.length, currentIdx);
+  }
+
+  function openPost(postIdx) {
+    currentPost = GALLERY_POSTS[postIdx];
+    currentIdx  = 0;
+    lbTitle.textContent = currentPost.title;
+    goTo(0);
     lightbox.classList.add('active');
     document.body.style.overflow = 'hidden';
   }
@@ -141,8 +146,10 @@ nav_order: 6
     lbImg.src = '';
   }
 
-  document.querySelectorAll('.gallery-zoom-btn').forEach(function (btn, idx) {
-    btn.addEventListener('click', function () { openLightbox(idx); });
+  document.querySelectorAll('.gallery-card').forEach(function (card) {
+    card.addEventListener('click', function () {
+      openPost(parseInt(this.getAttribute('data-post')));
+    });
   });
 
   lbClose.addEventListener('click', closeLightbox);
@@ -151,22 +158,18 @@ nav_order: 6
   });
 
   lbPrev.addEventListener('click', function () {
-    currentIdx = (currentIdx - 1 + visibleSrcs.length) % visibleSrcs.length;
-    lbImg.src = visibleSrcs[currentIdx].src;
-    lbImg.alt = visibleSrcs[currentIdx].alt;
+    goTo((currentIdx - 1 + currentPost.images.length) % currentPost.images.length);
   });
 
   lbNext.addEventListener('click', function () {
-    currentIdx = (currentIdx + 1) % visibleSrcs.length;
-    lbImg.src = visibleSrcs[currentIdx].src;
-    lbImg.alt = visibleSrcs[currentIdx].alt;
+    goTo((currentIdx + 1) % currentPost.images.length);
   });
 
   document.addEventListener('keydown', function (e) {
     if (!lightbox.classList.contains('active')) return;
-    if (e.key === 'Escape')      closeLightbox();
-    if (e.key === 'ArrowLeft')   lbPrev.click();
-    if (e.key === 'ArrowRight')  lbNext.click();
+    if (e.key === 'Escape')     closeLightbox();
+    if (e.key === 'ArrowLeft')  lbPrev.click();
+    if (e.key === 'ArrowRight') lbNext.click();
   });
 })();
 </script>

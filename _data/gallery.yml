@@ -1,0 +1,20 @@
+# Gallery Posts
+# ─────────────────────────────────────────────
+# 게시물 추가 방법:
+#   1. assets/img/gallery/[category]/[폴더명]/ 에 이미지 파일 넣기
+#   2. 아래에 항목 추가:
+#      - title: "게시물 제목"
+#        category: daily   # daily 또는 study
+#        cover: /assets/img/gallery/[category]/[폴더명]/1.jpg
+#        images:
+#          - /assets/img/gallery/[category]/[폴더명]/1.jpg
+#          - /assets/img/gallery/[category]/[폴더명]/2.jpg
+# ─────────────────────────────────────────────
+
+- title: "2026 CVPR"
+  category: study
+  cover: /assets/img/gallery/study/cvpr2026/1.jpg
+  images:
+    - /assets/img/gallery/study/cvpr2026/1.jpg
+    - /assets/img/gallery/study/cvpr2026/2.jpg
+    - /assets/img/gallery/study/cvpr2026/3.jpg

@@ -55,7 +55,7 @@ nav: false
       <div class="contact-right" data-aos="fade-up" data-aos-delay="100">
         <div class="map-container">
           <iframe
-            src="https://maps.google.com/maps?q=경희대학교+국제캠퍼스+전자정보대학,+경기도+용인시+기흥구+덕영대로+1732&hl=ko&z=17&output=embed"
+            src="https://maps.google.com/maps?q=37.2393278832387,127.08344685444&hl=ko&z=17&output=embed"
             width="100%"
             allowfullscreen=""
             loading="lazy"

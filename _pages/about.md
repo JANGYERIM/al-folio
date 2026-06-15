@@ -53,9 +53,9 @@ nav: false
       <p class="lead">
         Our lab bridges the gap between visual perception and real-world understanding.
         Driven by advanced Computer Vision and Multimodal AI, our research equips machines to truly understand complex real-world environments.
-        Our research spans <strong style="color:#fff;">Multimodal Learning</strong> for joint vision-language-audio understanding,
-        <strong style="color:#fff;">Autonomous Driving Perception</strong> for safe scene understanding,
-        and <strong style="color:#fff;">Multi-task Learning</strong> for efficient shared representations.
+        Our research spans <strong style="color:#9c1717;">Multimodal Learning</strong> for joint vision-language-audio understanding,
+        <strong style="color:#9c1717;">Autonomous Driving Perception</strong> for safe scene understanding,
+        and <strong style="color:#9c1717;">Multi-task Learning</strong> for efficient shared representations.
         Through these core technologies, we build intelligence that perceives, reasons, and interacts with the world.
       </p>
     </div>

@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2026-05-01 09:00:00+0900
+date: 2023-07-17 09:00:00+0900
 inline: true
 related_posts: false
 ---
 
-Prof. Jung Uk Kim will serve as an Area Chair for **NeurIPS 2026**.
+1 paper is accepted to **ACM MM 2023**. Congratulations!

@@ -1802,6 +1802,7 @@ img { max-width: 100%; }
 /* Card info */
 .gallery-card-info {
   padding: 14px 16px;
+  text-align: center;
 }
 
 .gallery-card-info h4 {

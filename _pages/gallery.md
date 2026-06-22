@@ -18,8 +18,8 @@ nav_order: 6
     <!-- ── Filter Tabs ── -->
     <ul class="gallery-filters" data-aos="fade-up">
       <li class="filter-active" data-filter="*">All</li>
-      <li data-filter="daily">Daily</li>
       <li data-filter="study">Study</li>
+      <li data-filter="daily">Daily</li>
     </ul>
 
     <!-- ── Post Cards Grid ── -->

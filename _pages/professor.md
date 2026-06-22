@@ -32,9 +32,7 @@ nav: false
         <p><i class="bi bi-telephone"></i>&nbsp; +82-31-201-3768</p>
         <p><i class="bi bi-geo-alt"></i>&nbsp; Electronic Information College Building #325-3</p>
         <p>
-          <a href="https://visualai.khu.ac.kr/people/professor" target="_blank"><i class="bi bi-globe"></i>&nbsp;Homepage</a>
-          <a href="#"><i class="bi bi-mortarboard"></i>&nbsp;Google Scholar</a>
-          <a href="#"><i class="bi bi-file-text"></i>&nbsp;CV</a>
+          <a href="https://scholar.google.com/citations?user=JMZ80R8AAAAJ&hl=ko&oi=ao" target="_blank"><i class="bi bi-mortarboard"></i>&nbsp;Google Scholar</a>
         </p>
       </div>
     </div>

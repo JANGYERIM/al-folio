@@ -992,7 +992,7 @@ img { max-width: 100%; }
 }
 
 .team-member-row .member-image {
-  flex: 0 0 220px;
+  flex: 0 0 300px;
   position: relative;
   overflow: hidden;
 }

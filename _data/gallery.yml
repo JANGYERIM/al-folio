@@ -9,20 +9,237 @@
 #        images:
 #          - /assets/img/gallery/[category]/[폴더명]/1.jpg
 #          - /assets/img/gallery/[category]/[폴더명]/2.jpg
+# 순서: 연도 최신순, 연도 내에서 study → daily
 # ─────────────────────────────────────────────
 
+# ── 2026 ──────────────────────────────────────
 - title: "2026 CVPR"
   category: study
-  cover: /assets/img/gallery/study/cvpr2026/1.jpg
+  cover: /assets/img/gallery/study/2026/cvpr2026/1.jpg
   images:
-    - /assets/img/gallery/study/cvpr2026/1.jpg
-    - /assets/img/gallery/study/cvpr2026/2.jpg
-    - /assets/img/gallery/study/cvpr2026/3.jpg
+    - /assets/img/gallery/study/2026/cvpr2026/1.jpg
+    - /assets/img/gallery/study/2026/cvpr2026/2.jpg
+    - /assets/img/gallery/study/2026/cvpr2026/3.jpg
+
+- title: "AAAI 2026"
+  category: study
+  cover: /assets/img/gallery/study/2026/AAAI2026/20260123_131303.jpg
+  images:
+    - /assets/img/gallery/study/2026/AAAI2026/20260123_131303.jpg
+    - /assets/img/gallery/study/2026/AAAI2026/KakaoTalk_20260206_101152377.jpg
+    - /assets/img/gallery/study/2026/AAAI2026/KakaoTalk_20260206_101152377_01.jpg
+    - /assets/img/gallery/study/2026/AAAI2026/KakaoTalk_20260206_101152377_02.jpg
+    - /assets/img/gallery/study/2026/AAAI2026/KakaoTalk_20260206_101152377_03.jpg
+    - /assets/img/gallery/study/2026/AAAI2026/KakaoTalk_20260206_101152377_04.jpg
+    - /assets/img/gallery/study/2026/AAAI2026/KakaoTalk_20260206_101152377_05.jpg
+
+- title: "2026 하계 워크샵 (제주도)"
+  category: daily
+  cover: ""
+  images: []
+
+- title: "2025학년도 후기 학위수여식 (2026.02)"
+  category: daily
+  cover: ""
+  images: []
 
 - title: "2026 스승의 날"
   category: daily
-  cover: /assets/img/gallery/daily/2026/스승의날/스승의날_26(2).heic
+  cover: /assets/img/gallery/daily/2026/스승의날/스승의날_26(2).jpg
   images:
     - /assets/img/gallery/daily/2026/스승의날/스승의날_26(2).jpg
     - /assets/img/gallery/daily/2026/스승의날/스승의날_26.jpg
     - /assets/img/gallery/daily/2026/스승의날/스승의날_26(3).JPG
+
+- title: "2026 벚꽃놀이"
+  category: daily
+  cover: ""
+  images: []
+
+# ── 2025 ──────────────────────────────────────
+- title: "한국방송미디어공학회 2025 (동계)"
+  category: study
+  cover: /assets/img/gallery/study/2025/방미공2025(동계)/방미공2025_0.jpg
+  images:
+    - /assets/img/gallery/study/2025/방미공2025(동계)/방미공2025_0.jpg
+    - /assets/img/gallery/study/2025/방미공2025(동계)/방미공2025_1.jpg
+    - /assets/img/gallery/study/2025/방미공2025(동계)/방미공2025_2.jpg
+    - /assets/img/gallery/study/2025/방미공2025(동계)/방미공2025_3.jpg
+    - /assets/img/gallery/study/2025/방미공2025(동계)/방미공2025_4.jpg
+
+- title: "KCCV 2025"
+  category: study
+  cover: /assets/img/gallery/study/2025/KCCV2025/KakaoTalk_20250808_143603961.jpg
+  images:
+    - /assets/img/gallery/study/2025/KCCV2025/KakaoTalk_20250808_143603961.jpg
+    - /assets/img/gallery/study/2025/KCCV2025/KakaoTalk_20250808_143603961_01.jpg
+    - /assets/img/gallery/study/2025/KCCV2025/KakaoTalk_20250808_143603961_02.jpg
+    - /assets/img/gallery/study/2025/KCCV2025/KakaoTalk_20250808_143603961_03.jpg
+    - /assets/img/gallery/study/2025/KCCV2025/KakaoTalk_20250808_143603961_04.jpg
+    - /assets/img/gallery/study/2025/KCCV2025/KakaoTalk_20250808_143603961_05.jpg
+    - /assets/img/gallery/study/2025/KCCV2025/KakaoTalk_20250808_143603961_06.jpg
+    - /assets/img/gallery/study/2025/KCCV2025/KakaoTalk_20250808_143603961_07.jpg
+
+- title: "한국방송미디어공학회 2025 (하계)"
+  category: study
+  cover: /assets/img/gallery/study/2025/방미공2025(하계)/0.jpg
+  images:
+    - /assets/img/gallery/study/2025/방미공2025(하계)/0.jpg
+    - /assets/img/gallery/study/2025/방미공2025(하계)/강현.jpg
+    - /assets/img/gallery/study/2025/방미공2025(하계)/교수님2.jpg
+    - "/assets/img/gallery/study/2025/방미공2025(하계)/방미공 단체샷.jpg"
+    - /assets/img/gallery/study/2025/방미공2025(하계)/수용.jpg
+    - /assets/img/gallery/study/2025/방미공2025(하계)/유은.jpg
+    - /assets/img/gallery/study/2025/방미공2025(하계)/이찬.jpg
+    - /assets/img/gallery/study/2025/방미공2025(하계)/정준영.jpg
+
+- title: "CVPR 2025"
+  category: study
+  cover: /assets/img/gallery/study/2025/CVPR2025/KakaoTalk_20250709_221350921.jpg
+  images:
+    - /assets/img/gallery/study/2025/CVPR2025/KakaoTalk_20250709_221350921.jpg
+    - /assets/img/gallery/study/2025/CVPR2025/KakaoTalk_20250709_221350921_01.jpg
+    - /assets/img/gallery/study/2025/CVPR2025/KakaoTalk_20250709_221350921_02.jpg
+    - /assets/img/gallery/study/2025/CVPR2025/KakaoTalk_20250709_221350921_03.jpg
+    - /assets/img/gallery/study/2025/CVPR2025/KakaoTalk_20250709_221350921_04.jpg
+
+- title: "AAAI 2025"
+  category: study
+  cover: ""
+  images: []
+
+- title: "2025 동계 워크샵 (에버랜드)"
+  category: daily
+  cover: /assets/img/gallery/daily/2025/2025동계워크샵/2025동계워크샵_0.jpg
+  images:
+    - /assets/img/gallery/daily/2025/2025동계워크샵/2025동계워크샵_0.jpg
+    - /assets/img/gallery/daily/2025/2025동계워크샵/2025동계워크샵_1.jpg
+    - /assets/img/gallery/daily/2025/2025동계워크샵/2025동계워크샵_2.jpg
+    - /assets/img/gallery/daily/2025/2025동계워크샵/2025동계워크샵_3.jpg
+    - /assets/img/gallery/daily/2025/2025동계워크샵/2025동계워크샵_4.jpg
+    - /assets/img/gallery/daily/2025/2025동계워크샵/2025동계워크샵_5.jpg
+    - /assets/img/gallery/daily/2025/2025동계워크샵/2025동계워크샵_6.jpg
+    - /assets/img/gallery/daily/2025/2025동계워크샵/2025동계워크샵_단체.jpg
+
+- title: "2025 경희대학교 축제 (9월)"
+  category: daily
+  cover: "/assets/img/gallery/daily/2025/2025경희대축제/2025경희대학교 축제_0.jpg"
+  images:
+    - "/assets/img/gallery/daily/2025/2025경희대축제/2025경희대학교 축제_0.jpg"
+    - "/assets/img/gallery/daily/2025/2025경희대축제/2025경희대학교 축제_1.jpg"
+    - "/assets/img/gallery/daily/2025/2025경희대축제/2025경희대학교 축제_2.jpg"
+    - "/assets/img/gallery/daily/2025/2025경희대축제/2025경희대학교 축제_3.jpg"
+    - "/assets/img/gallery/daily/2025/2025경희대축제/2025경희대학교 축제_4.jpg"
+
+- title: "2024학년도 후기 학위수여식 (2025.08)"
+  category: daily
+  cover: /assets/img/gallery/daily/2025/2025학위수여식/2025.08학위수여식_0.jpg
+  images:
+    - /assets/img/gallery/daily/2025/2025학위수여식/2025.08학위수여식_0.jpg
+    - /assets/img/gallery/daily/2025/2025학위수여식/2025.08학위수여식_1.jpg
+    - /assets/img/gallery/daily/2025/2025학위수여식/2025.08학위수여식_2.jpg
+    - /assets/img/gallery/daily/2025/2025학위수여식/2025.08학위수여식_3.jpg
+    - /assets/img/gallery/daily/2025/2025학위수여식/2025.08학위수여식_4.jpg
+
+- title: "2025 하계 워크샵 (제주도)"
+  category: daily
+  cover: /assets/img/gallery/daily/2025/2025하계워크샵/0.jpg
+  images:
+    - /assets/img/gallery/daily/2025/2025하계워크샵/0.jpg
+    - /assets/img/gallery/daily/2025/2025하계워크샵/고깃집단체샷.jpg
+    - /assets/img/gallery/daily/2025/2025하계워크샵/노는사진.jpg
+    - /assets/img/gallery/daily/2025/2025하계워크샵/느좋.jpg
+    - /assets/img/gallery/daily/2025/2025하계워크샵/느좋2.jpg
+    - /assets/img/gallery/daily/2025/2025하계워크샵/바다샷세명.jpg
+    - /assets/img/gallery/daily/2025/2025하계워크샵/볼링.jpg
+    - /assets/img/gallery/daily/2025/2025하계워크샵/상차림회.jpg
+    - /assets/img/gallery/daily/2025/2025하계워크샵/카페단체샷.jpg
+    - /assets/img/gallery/daily/2025/2025하계워크샵/햄찬.jpg
+
+- title: "2025 경희대학교 축제 (4월)"
+  category: daily
+  cover: ""
+  images: []
+
+- title: "2025 스승의날"
+  category: daily
+  cover: ""
+  images: []
+
+- title: "2025 벚꽃놀이"
+  category: daily
+  cover: ""
+  images: []
+
+# ── 2024 ──────────────────────────────────────
+- title: "ECCV 2024"
+  category: study
+  cover: ""
+  images: []
+
+- title: "한국방송미디어공학회 2024"
+  category: study
+  cover: ""
+  images: []
+
+- title: "한국 정보과학회 KCC 2024"
+  category: study
+  cover: ""
+  images: []
+
+- title: "ICASSP 2024"
+  category: study
+  cover: ""
+  images: []
+
+- title: "CVPR 2024"
+  category: study
+  cover: /assets/img/gallery/study/2024/CVPR2024/cvpr202424.png
+  images:
+    - /assets/img/gallery/study/2024/CVPR2024/cvpr202424.png
+
+- title: "2024 하계 워크샵 (제주도)"
+  category: daily
+  cover: ""
+  images: []
+
+- title: "2024 스승의날"
+  category: daily
+  cover: ""
+  images: []
+
+# ── 2023 ──────────────────────────────────────
+- title: "한국 정보과학회 KCC 2023"
+  category: study
+  cover: ""
+  images: []
+
+- title: "ACMMM 2023"
+  category: study
+  cover: ""
+  images: []
+
+- title: "ICCV 2023"
+  category: study
+  cover: ""
+  images: []
+
+- title: "한국방송미디어공학회 2023"
+  category: study
+  cover: ""
+  images: []
+
+- title: "IPIU 2023 신진연구자"
+  category: study
+  cover: ""
+  images: []
+
+- title: "2023 동계 워크샵 (남이섬)"
+  category: daily
+  cover: ""
+  images: []
+
+- title: "동탄 호수공원 나들이 (22.12.27)"
+  category: daily
+  cover: ""
+  images: []

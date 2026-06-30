@@ -28,9 +28,86 @@ nav: false
         <div class="publication-card">
           <div class="card-image">
             <div class="pub-placeholder">
-              <span class="venue-abbr">CVPR</span>
+              <span class="venue-abbr">ECCV</span>
               <span class="venue-year">2026</span>
             </div>
+          </div>
+          <div class="card-content">
+            <div class="meta">
+              <span class="category">International Conference</span>
+              <span class="year">ECCV 2026</span>
+            </div>
+            <h3>Different Changes Require Different Reasoning: Change-Type-Specialized Experts for Robust Change Captioning</h3>
+            <p class="author">Jiyoung Park, InJae Oh, <b>Jung Uk Kim</b></p>
+            <p class="description">European Conference on Computer Vision (ECCV), 2026</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="publication-item filter-international" data-aos="fade-up">
+        <div class="publication-card">
+          <div class="card-image">
+            <div class="pub-placeholder">
+              <span class="venue-abbr">ECCV</span>
+              <span class="venue-year">2026</span>
+            </div>
+          </div>
+          <div class="card-content">
+            <div class="meta">
+              <span class="category">International Conference</span>
+              <span class="year">ECCV 2026</span>
+            </div>
+            <h3>PersonaDrive: Controllable Trajectory Prediction with Multi-Dimensional Driving Personas</h3>
+            <p class="author">Chan Lee, Kimin Yun, Yuseok Bae, Seong Tae Kim, <b>Jung Uk Kim</b></p>
+            <p class="description">European Conference on Computer Vision (ECCV), 2026</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="publication-item filter-international" data-aos="fade-up">
+        <div class="publication-card">
+          <div class="card-image">
+            <div class="pub-placeholder">
+              <span class="venue-abbr">ECCV</span>
+              <span class="venue-year">2026</span>
+            </div>
+          </div>
+          <div class="card-content">
+            <div class="meta">
+              <span class="category">International Conference</span>
+              <span class="year">ECCV 2026</span>
+            </div>
+            <h3>Online Versatile Incremental Learning: Towards Class and Domain-Agnostic Adaptation at Any Time</h3>
+            <p class="author">Jae-Ho Lee, Jun-Yeong Moon, Min-Yeong Park, <b>Jung Uk Kim</b>, Gyeong-Moon Park</p>
+            <p class="description">European Conference on Computer Vision (ECCV), 2026</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="publication-item filter-international" data-aos="fade-up">
+        <div class="publication-card">
+          <div class="card-image">
+            <div class="pub-placeholder">
+              <span class="venue-abbr">TIP</span>
+              <span class="venue-year">2026</span>
+            </div>
+          </div>
+          <div class="card-content">
+            <div class="meta">
+              <span class="category">International Journal</span>
+              <span class="year">IEEE TIP 2026</span>
+            </div>
+            <h3>Adverse Weather Removal via Dynamic Enhancement Diffusion with Weather-Adaptive Prompting</h3>
+            <p class="author">Youngmin Oh, Sungyoung Lee, MyeongAh Cho, <b>Jung Uk Kim</b></p>
+            <p class="description">IEEE Transactions on Image Processing (TIP, IF: 13.7), 2026</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="publication-item filter-international" data-aos="fade-up">
+        <div class="publication-card">
+          <div class="card-image">
+                        <img src="/assets/img/publication/2026/[2026CVPR]Generate, Analyze, and Refine Training-Free Sound Source via MLLM Meta-Reasoning.png" alt="Generate, Analyze, and Refine: Training-Free Sound Source Localization via MLLM Meta-Reasoning" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -51,10 +128,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">CVPR</span>
-              <span class="venue-year">2026</span>
-            </div>
+                        <img src="/assets/img/publication/2026/[2026CVPR]MonoSAOD Monocular 3D Object Detection with Sparsely Annotated Label.png" alt="MonoSAOD: Monocular 3D Object Detection with Sparsely Annotated Label" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -76,10 +150,7 @@ nav: false
         <div class="publication-card">
           <div class="card-image">
             <div class="tag highlight">Highlight</div>
-            <div class="pub-placeholder">
-              <span class="venue-abbr">CVPR</span>
-              <span class="venue-year">2026</span>
-            </div>
+                        <img src="/assets/img/publication/2026/[2026CVPR]Learning from Oblivion Predicting Knowledge-Overflowed Weights via Retrodiction of Forgetting.png" alt="Learning from Oblivion: Predicting Knowledge-Overflowed Weights via Retrodiction of Forgetting" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -100,10 +171,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">CVPR</span>
-              <span class="venue-year">Findings 2026</span>
-            </div>
+                        <img src="/assets/img/publication/2026/[2026CVPR]From Adaptation to Generalization Adaptive Visual Prompting for Medical Image Segmentation.png" alt="From Adaptation to Generalization: Adaptive Visual Prompting for Medical Image Segmentation" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -123,10 +191,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">ICASSP</span>
-              <span class="venue-year">2026</span>
-            </div>
+                        <img src="/assets/img/publication/2026/[2026ICASSP] Rationale-Guided Learning for Multimodal Emotion Recognition.png" alt="Rationale-Guided Learning for Multimodal Emotion Recognition" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -147,10 +212,7 @@ nav: false
         <div class="publication-card">
           <div class="card-image">
             <div class="tag oral">Oral</div>
-            <div class="pub-placeholder">
-              <span class="venue-abbr">AAAI</span>
-              <span class="venue-year">2026</span>
-            </div>
+                        <img src="/assets/img/publication/2026/[2026AAAI]See, Rank, and Filter Important Word-Aware Clip Filtering via Scene Understanding for Moment Retrieval and Highlight Detection.png" alt="See, Rank, and Filter: Important Word-Aware Clip Filtering via Scene Understanding for Moment Retrieval and Highlight Detection" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -171,10 +233,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">AAAI</span>
-              <span class="venue-year">2026</span>
-            </div>
+                        <img src="/assets/img/publication/2026/[2026AAAI]Leveraging Textual Compositional Reasoning for Robust Change Captioning.png" alt="Leveraging Textual Compositional Reasoning for Robust Change Captioning" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -195,10 +254,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">AAAI</span>
-              <span class="venue-year">2026</span>
-            </div>
+                        <img src="/assets/img/publication/2026/[2026AAAI]Task Prototype-Based Knowledge Retrieval for Multi-Task Learning from Partially Annotated Data.png" alt="Task Prototype-Based Knowledge Retrieval for Multi-Task Learning from Partially Annotated Data" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -218,10 +274,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">AAAI</span>
-              <span class="venue-year">2026</span>
-            </div>
+                        <img src="/assets/img/publication/2026/[2026AAAI]Do We Need Perfect Data? Leveraging Noise for Domain Generalized Segmentation.png" alt="Do We Need Perfect Data? Leveraging Noise for Domain Generalized Segmentation" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -263,10 +316,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">CVPR</span>
-              <span class="venue-year">2025</span>
-            </div>
+                        <img src="/assets/img/publication/2025/[2025CVPR]Object-aware Sound Source Localization via Audio-Visual Scene Understanding.png" alt="Object-aware Sound Source Localization via Audio-Visual Scene Understanding" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -286,10 +336,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">AAAI</span>
-              <span class="venue-year">2025</span>
-            </div>
+                        <img src="/assets/img/publication/2025/[2025AAAI]Multispectral Pedestrian Detection with Sparsely Annotated Label.png" alt="Multispectral Pedestrian Detection with Sparsely Annotated Label" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -310,10 +357,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">AAAI</span>
-              <span class="venue-year">2025</span>
-            </div>
+                        <img src="/assets/img/publication/2025/[2025AAAI]Watch Video, Catch Keyword Context-aware Keyword Attention for Moment Retrieval and Highlight Detection.png" alt="Watch Video, Catch Keyword: Context-aware Keyword Attention for Moment Retrieval and Highlight Detection" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -334,10 +378,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">TMM</span>
-              <span class="venue-year">2025</span>
-            </div>
+                        <img src="/assets/img/publication/2026/[2026TMM]SSMPD Semi-Supervised Learning for Multispectral Pedestrian Detection.png" alt="SSMPD: Semi-Supervised Learning for Multispectral Pedestrian Detection" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -357,10 +398,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">TNNLS</span>
-              <span class="venue-year">2025</span>
-            </div>
+                        <img src="/assets/img/publication/2025/[2025TNNLS]Enabling Visual Object Detection with Object Sounds via Visual Modality Recalling Memory.png" alt="Enabling Visual Object Detection with Object Sounds via Visual Modality Recalling Memory" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -380,10 +418,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">TCSVT</span>
-              <span class="venue-year">2025</span>
-            </div>
+                        <img src="/assets/img/publication/2025/[2025TCSVT]Spatial Mask-based Adaptive Robust Training for Video Object Segmentation with Noisy Labels.png" alt="Spatial Mask-based Adaptive Robust Training for Video Object Segmentation with Noisy Labels" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -428,10 +463,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">KIBME</span>
-              <span class="venue-year">2025</span>
-            </div>
+            <img src="/assets/img/publication/2025/[2025방미공]Moment Retrieval and Highlight Detection Framework via Semantic Alignment of Phrases.png" alt="Moment Retrieval and Highlight Detection Framework via Semantic Alignment of Phrases" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -451,10 +483,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">KIBME</span>
-              <span class="venue-year">2025</span>
-            </div>
+            <img src="/assets/img/publication/2025/[2025방미공]Grounded VideoQA via Optimal Transport-based Fine-Grained.png" alt="Grounded VideoQA via Optimal Transport-based Fine-Grained" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -474,10 +503,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">KIMST</span>
-              <span class="venue-year">2025</span>
-            </div>
+            <img src="/assets/img/publication/2025/[2025군사기술]Vision Language Model Based Approach for Change Captioning.png" alt="Vision Language Model Based Approach for Change Captioning" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -497,10 +523,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">J.KIISE</span>
-              <span class="venue-year">2025</span>
-            </div>
+            <img src="/assets/img/publication/2025/[2025]Mixed Sound Source Localization via Audio-Visual Information Fusion.png" alt="Mixed Sound Source Localization via Audio-Visual Information Fusion" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -520,10 +543,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">J.Brd.Eng</span>
-              <span class="venue-year">2025</span>
-            </div>
+            <img src="/assets/img/publication/2025/[2025방미공]Video Moment Retrieval and Highlight Detection via Effective Fusion of Captions Generated by Vision-Language Models.png" alt="Video Moment Retrieval and Highlight Detection via Effective Fusion of Captions Generated by Vision-Language Models" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -543,10 +563,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">KIBME</span>
-              <span class="venue-year">2025</span>
-            </div>
+            <img src="/assets/img/publication/2025/[2025방미공]The Necessity of Training Strategies for Monocular 3D Object Detection under Adverse Weather Conditions.png" alt="The Necessity of Training Strategies for Monocular 3D Object Detection under Adverse Weather Conditions" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -566,10 +583,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">KIBME</span>
-              <span class="venue-year">2025</span>
-            </div>
+            <img src="/assets/img/publication/2025/[2025방미공]A Semi-Supervised Learning Framework for Rain-Robust Multispectral Pedestrian Detection with Limited Labels.png" alt="A Semi-Supervised Learning Framework for Rain-Robust Multispectral Pedestrian Detection with Limited Labels" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -589,10 +603,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">KIBME</span>
-              <span class="venue-year">2025</span>
-            </div>
+            <img src="/assets/img/publication/2025/[2025방미공]Performance Evaluation and Analysis of Visual Information Removal in Dense Video Captioning.png" alt="Performance Evaluation and Analysis of Visual Information Removal in Dense Video Captioning" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -612,10 +623,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">KIBME</span>
-              <span class="venue-year">2025</span>
-            </div>
+            <img src="/assets/img/publication/2025/[2025방미공]Siamease Network-Based Knowledge Distillation Method for Domain-Robust Visual Question Answering.png" alt="Siamese Network-Based Knowledge Distillation Method for Domain-Robust Visual Question Answering" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -635,10 +643,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">KIBME</span>
-              <span class="venue-year">2025</span>
-            </div>
+            <img src="/assets/img/publication/2025/[2025방미공]Moment Retrieval and Highlight Detection via Keyword Extraction from Natural Language.png" alt="Moment Retrieval and Highlight Detection via Keyword Extraction from Natural Language" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -658,10 +663,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">KIBME</span>
-              <span class="venue-year">2025</span>
-            </div>
+            <img src="/assets/img/publication/2025/[2025방미공]A Real time Free-Viewpoint Videos Streaming Model Robust to Fast-Moving Objects.png" alt="A Real-time Free-Viewpoint Videos Streaming Model Robust to Fast-Moving Objects" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -681,10 +683,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">J.KIISE</span>
-              <span class="venue-year">2025</span>
-            </div>
+            <img src="/assets/img/publication/2025/[2025정보과학회논문지]Hierarchical Semantic Prompt Design for Robust Open-Vocabulary Object Detection.png" alt="Hierarchical Semantic Prompt Design for Robust Open-Vocabulary Object Detection" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -706,10 +705,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">ECCV</span>
-              <span class="venue-year">2024</span>
-            </div>
+                        <img src="/assets/img/publication/2024/[2024ECCV]Learning Trimodal Relation for Audio-Visual Question Answering with Missing Modality.png" alt="Learning Trimodal Relation for Audio-Visual Question Answering with Missing Modality" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -729,10 +725,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">ECCV</span>
-              <span class="venue-year">2024</span>
-            </div>
+                        <img src="/assets/img/publication/2024/[2024ECCV]MonoWAD Weather-Adaptive Diffusion Model for Robust Monocular 3D Object Detection.png" alt="MonoWAD: Weather-Adaptive Diffusion Model for Robust Monocular 3D Object Detection" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -753,10 +746,7 @@ nav: false
         <div class="publication-card">
           <div class="card-image">
             <div class="tag oral">Oral</div>
-            <div class="pub-placeholder">
-              <span class="venue-abbr">ECCV</span>
-              <span class="venue-year">2024</span>
-            </div>
+                        <img src="/assets/img/publication/2024/[2024ECCV]Towards Model-Agnostic Dataset Condensation by Heterogeneous Models.png" alt="Towards Model-Agnostic Dataset Condensation by Heterogeneous Models" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -776,10 +766,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">CVPR</span>
-              <span class="venue-year">2024</span>
-            </div>
+                        <img src="/assets/img/publication/2024/[2024CVPR]Learning to Visually Localize Sound Sources from Mixtures without Prior Source Knowledge.png" alt="Learning to Visually Localize Sound Sources from Mixtures without Prior Source Knowledge" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -799,10 +786,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">ICASSP</span>
-              <span class="venue-year">2024</span>
-            </div>
+                        <img src="/assets/img/publication/2024/[2024ICASSP]Enhancing Audio-Visual Question Answering with Missing Modality via Trans-Modal Associative Learning.png" alt="Enhancing Audio-Visual Question Answering with Missing Modality via Trans-Modal Associative Learning" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -822,10 +806,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">IEEE Access</span>
-              <span class="venue-year">2024</span>
-            </div>
+                        <img src="/assets/img/publication/2024/[2024IEEE]Robust Airway Generation Labeling with Airway Segmentation for Reliable Airway Assessment.png" alt="Robust Airway Generation Labeling with Airway Segmentation for Reliable Airway Assessment" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -847,10 +828,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">KSC</span>
-              <span class="venue-year">2024</span>
-            </div>
+            <img src="/assets/img/publication/2024/[2024KSC]Video Moment Retrieval and Highlight Detection Using Captions Generated by Multimodal Large Language Models.png" alt="Video Moment Retrieval and Highlight Detection Using Captions Generated by Multimodal Large Language Models" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -870,10 +848,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">KCC</span>
-              <span class="venue-year">2024</span>
-            </div>
+            <img src="/assets/img/publication/2024/[2024KCC]Study For Automatic Pedestrian Data Augmented Learning Technique For Robust Multispectral Pedestrian Detection.png" alt="Study For Automatic Pedestrian Data Augmented Learning Technique For Robust Multispectral Pedestrian Detection" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -893,10 +868,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">KCC</span>
-              <span class="venue-year">2024</span>
-            </div>
+            <img src="/assets/img/publication/2024/[2024KCC]Robust Video Moment Retrieval and Highlight Detection with Using Large Vision-Language Model.png" alt="Robust Video Moment Retrieval and Highlight Detection with Using Large Vision-Language Model" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -916,10 +888,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">J.Brd.Eng</span>
-              <span class="venue-year">2024</span>
-            </div>
+            <img src="/assets/img/publication/2024/[2024]Robust 3D Object Detection Using 2D-Based Object Detection Information and Symmetry Knowledge.png" alt="Robust 3D Object Detection Using 2D-Based Object Detection Information and Symmetry Knowledge" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -939,10 +908,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">KIBME</span>
-              <span class="venue-year">2024</span>
-            </div>
+            <img src="/assets/img/publication/2024/[2024방미공]Efficient Sampling Method for Repetitive Data for Label Data Selection In Multispectral Pedestrian Detection.png" alt="Efficient Sampling Method for Repetitive Data for Label Data Selection In Multispectral Pedestrian Detection" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -962,10 +928,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">KIBME</span>
-              <span class="venue-year">2024</span>
-            </div>
+            <img src="/assets/img/publication/2024/[2024방미공]Effective Change Captioning via Feature Map Restoration in Noisy Environments.png" alt="Effective Change Captioning via Feature Map Restoration in Noisy Environments" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -985,10 +948,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">KIMST</span>
-              <span class="venue-year">2024</span>
-            </div>
+            <img src="/assets/img/publication/2024/[2024]Handling Missing Modality Using Multimodal Relational Knowledge.png" alt="Handling Missing Modality Using Multimodal Relational Knowledge" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -1010,10 +970,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">ACM MM</span>
-              <span class="venue-year">2023</span>
-            </div>
+                        <img src="/assets/img/publication/2023/[2023ACMM]Audio-Visual Spatial Integration and Recursive Attention for Robust Sound Source Localization.png" alt="Audio-Visual Spatial Integration and Recursive Attention for Robust Sound Source Localization" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -1033,10 +990,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">ICCV</span>
-              <span class="venue-year">2023</span>
-            </div>
+                        <img src="/assets/img/publication/2023/[2023ICCV]Online Class Incremental Learning on Stochastic Blurry Task Boundary via Mask and Visual Prompt Tuning.png" alt="Online Class Incremental Learning on Stochastic Blurry Task Boundary via Mask and Visual Prompt Tuning" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -1056,10 +1010,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">TIP</span>
-              <span class="venue-year">2023</span>
-            </div>
+                        <img src="/assets/img/publication/2023/[2023SCIE]Stereoscopic Vision Recalling Memory for Monocular 3D Object Detection.png" alt="Stereoscopic Vision Recalling Memory for Monocular 3D Object Detection" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -1079,10 +1030,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">ICIP</span>
-              <span class="venue-year">2023</span>
-            </div>
+                        <img src="/assets/img/publication/2023/[2023ICIP]Robust Multispectral Pedestrian Detection Via Spectral Position-Free Feature Mapping.png" alt="Robust Multispectral Pedestrian Detection Via Spectral Position-Free Feature Mapping" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -1102,10 +1050,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">ICASSP</span>
-              <span class="venue-year">2023</span>
-            </div>
+                        <img src="/assets/img/publication/2023/[2023ICASSP]Towards Robust Audio-Based Vehicle Detection via Importance-Aware Audio-Visual Learning.png" alt="Towards Robust Audio-Based Vehicle Detection via Importance-Aware Audio-Visual Learning" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -1125,10 +1070,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">ICASSP</span>
-              <span class="venue-year">2023</span>
-            </div>
+                        <img src="/assets/img/publication/2023/[2023ICAASSP]Similarity Relation Preserving Cross-Modal Learning for Multispectral Pedestrian Detection Against Adversarial Attacks.png" alt="Similarity Relation Preserving Cross-Modal Learning for Multispectral Pedestrian Detection Against Adversarial Attacks" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -1150,10 +1092,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">KSC</span>
-              <span class="venue-year">2023</span>
-            </div>
+            <img src="/assets/img/publication/2023/[2023KSC]Multimodal Deap Learning for Korean Fake News Detection.png" alt="Multimodal Deep Learning for Korean Fake News Detection" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -1173,10 +1112,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">KSC</span>
-              <span class="venue-year">2023</span>
-            </div>
+            <img src="/assets/img/publication/2023/[2023KSC]Multimodal Pedestrian Detection Using Attention and Multi Modal Guide.png" alt="Multimodal Pedestrian Detection Using Attention and Multi Modal Guide" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -1196,10 +1132,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">J.KIISE</span>
-              <span class="venue-year">2023</span>
-            </div>
+            <img src="/assets/img/publication/2023/[2023]Single-Modal Pedestrian Detection Leveraging Multimodal Knowledge for Blackout Situations.png" alt="Single-Modal Pedestrian Detection Leveraging Multimodal Knowledge for Blackout Situations" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -1220,10 +1153,7 @@ nav: false
         <div class="publication-card">
           <div class="card-image">
             <div class="tag award">Best Paper</div>
-            <div class="pub-placeholder">
-              <span class="venue-abbr">KIBME</span>
-              <span class="venue-year">2023</span>
-            </div>
+            <img src="/assets/img/publication/2023/[2023방미공]Effective 3D Object Detection using 2D Object Detection information.png" alt="Effective 3D Object Detection using 2D Object Detection information" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -1244,10 +1174,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">KIBME</span>
-              <span class="venue-year">2023</span>
-            </div>
+            <img src="/assets/img/publication/2023/[2023방미공]Enhancing Multi-Modal Audio-Visual QA Model Performance via Single Modal Feature Maps with Added Noise input.png" alt="Enhancing Multi-Modal Audio-Visual QA Model Performance via Single Modal Feature Maps with Added Noise Input" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -1269,10 +1196,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <div class="pub-placeholder">
-              <span class="venue-abbr">KSC</span>
-              <span class="venue-year">2022</span>
-            </div>
+            <img src="/assets/img/publication/2022/[2022방미공]Automatic Notification of Dangerous Situations in Blind Spots via Image-based Pedestrian Detection using Deep Learning.png" alt="Automatic Notification of Dangerous Situations in Blind Spots via Image-based Pedestrian Detection using Deep Learning" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">

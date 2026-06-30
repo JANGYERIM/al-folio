@@ -107,7 +107,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-                        <img src=\"{{ '/assets/img/publication/2026/[2026CVPR]Generate, Analyze, and Refine Training-Free Sound Source via MLLM Meta-Reasoning.png' | relative_url }}\" alt="Generate, Analyze, and Refine: Training-Free Sound Source Localization via MLLM Meta-Reasoning" loading="lazy">
+                        <img src="{{ '/assets/img/publication/2026/2026CVPRGenerate-Analyze-and-Refine-Training-Free-Sound-Source-via-MLLM-Meta-Reasoning.png' | relative_url }}" alt="Generate, Analyze, and Refine: Training-Free Sound Source Localization via MLLM Meta-Reasoning" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -128,7 +128,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-                        <img src=\"{{ '/assets/img/publication/2026/[2026CVPR]MonoSAOD Monocular 3D Object Detection with Sparsely Annotated Label.png' | relative_url }}\" alt="MonoSAOD: Monocular 3D Object Detection with Sparsely Annotated Label" loading="lazy">
+                        <img src="{{ '/assets/img/publication/2026/2026CVPRMonoSAOD-Monocular-3D-Object-Detection-with-Sparsely-Annotated-Label.png' | relative_url }}" alt="MonoSAOD: Monocular 3D Object Detection with Sparsely Annotated Label" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -150,7 +150,7 @@ nav: false
         <div class="publication-card">
           <div class="card-image">
             <div class="tag highlight">Highlight</div>
-                        <img src=\"{{ '/assets/img/publication/2026/[2026CVPR]Learning from Oblivion Predicting Knowledge-Overflowed Weights via Retrodiction of Forgetting.png' | relative_url }}\" alt="Learning from Oblivion: Predicting Knowledge-Overflowed Weights via Retrodiction of Forgetting" loading="lazy">
+                        <img src="{{ '/assets/img/publication/2026/2026CVPRLearning-from-Oblivion-Predicting-Knowledge-Overflowed-Weights-via-Retrodiction-of-Forgetting.png' | relative_url }}" alt="Learning from Oblivion: Predicting Knowledge-Overflowed Weights via Retrodiction of Forgetting" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -171,7 +171,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-                        <img src=\"{{ '/assets/img/publication/2026/[2026CVPR]From Adaptation to Generalization Adaptive Visual Prompting for Medical Image Segmentation.png' | relative_url }}\" alt="From Adaptation to Generalization: Adaptive Visual Prompting for Medical Image Segmentation" loading="lazy">
+                        <img src="{{ '/assets/img/publication/2026/2026CVPRFrom-Adaptation-to-Generalization-Adaptive-Visual-Prompting-for-Medical-Image-Segmentation.png' | relative_url }}" alt="From Adaptation to Generalization: Adaptive Visual Prompting for Medical Image Segmentation" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -191,7 +191,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-                        <img src=\"{{ '/assets/img/publication/2026/[2026ICASSP] Rationale-Guided Learning for Multimodal Emotion Recognition.png' | relative_url }}\" alt="Rationale-Guided Learning for Multimodal Emotion Recognition" loading="lazy">
+                        <img src="{{ '/assets/img/publication/2026/2026ICASSP-Rationale-Guided-Learning-for-Multimodal-Emotion-Recognition.png' | relative_url }}" alt="Rationale-Guided Learning for Multimodal Emotion Recognition" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -212,7 +212,7 @@ nav: false
         <div class="publication-card">
           <div class="card-image">
             <div class="tag oral">Oral</div>
-                        <img src=\"{{ '/assets/img/publication/2026/[2026AAAI]See, Rank, and Filter Important Word-Aware Clip Filtering via Scene Understanding for Moment Retrieval and Highlight Detection.png' | relative_url }}\" alt="See, Rank, and Filter: Important Word-Aware Clip Filtering via Scene Understanding for Moment Retrieval and Highlight Detection" loading="lazy">
+                        <img src="{{ '/assets/img/publication/2026/2026AAAISee-Rank-and-Filter-Important-Word-Aware-Clip-Filtering-via-Scene-Understanding-for-Moment-Retrieval-and-Highlight-Detection.png' | relative_url }}" alt="See, Rank, and Filter: Important Word-Aware Clip Filtering via Scene Understanding for Moment Retrieval and Highlight Detection" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -233,7 +233,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-                        <img src=\"{{ '/assets/img/publication/2026/[2026AAAI]Leveraging Textual Compositional Reasoning for Robust Change Captioning.png' | relative_url }}\" alt="Leveraging Textual Compositional Reasoning for Robust Change Captioning" loading="lazy">
+                        <img src="{{ '/assets/img/publication/2026/2026AAAILeveraging-Textual-Compositional-Reasoning-for-Robust-Change-Captioning.png' | relative_url }}" alt="Leveraging Textual Compositional Reasoning for Robust Change Captioning" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -254,7 +254,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-                        <img src=\"{{ '/assets/img/publication/2026/[2026AAAI]Task Prototype-Based Knowledge Retrieval for Multi-Task Learning from Partially Annotated Data.png' | relative_url }}\" alt="Task Prototype-Based Knowledge Retrieval for Multi-Task Learning from Partially Annotated Data" loading="lazy">
+                        <img src="{{ '/assets/img/publication/2026/2026AAAITask-Prototype-Based-Knowledge-Retrieval-for-Multi-Task-Learning-from-Partially-Annotated-Data.png' | relative_url }}" alt="Task Prototype-Based Knowledge Retrieval for Multi-Task Learning from Partially Annotated Data" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -274,7 +274,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-                        <img src=\"{{ '/assets/img/publication/2026/[2026AAAI]Do We Need Perfect Data? Leveraging Noise for Domain Generalized Segmentation.png' | relative_url }}\" alt="Do We Need Perfect Data? Leveraging Noise for Domain Generalized Segmentation" loading="lazy">
+                        <img src="{{ '/assets/img/publication/2026/2026AAAIDo-We-Need-Perfect-Data-Leveraging-Noise-for-Domain-Generalized-Segmentation.png' | relative_url }}" alt="Do We Need Perfect Data? Leveraging Noise for Domain Generalized Segmentation" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -316,7 +316,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-                        <img src=\"{{ '/assets/img/publication/2025/[2025CVPR]Object-aware Sound Source Localization via Audio-Visual Scene Understanding.png' | relative_url }}\" alt="Object-aware Sound Source Localization via Audio-Visual Scene Understanding" loading="lazy">
+                        <img src="{{ '/assets/img/publication/2025/2025CVPRObject-aware-Sound-Source-Localization-via-Audio-Visual-Scene-Understanding.png' | relative_url }}" alt="Object-aware Sound Source Localization via Audio-Visual Scene Understanding" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -336,7 +336,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-                        <img src=\"{{ '/assets/img/publication/2025/[2025AAAI]Multispectral Pedestrian Detection with Sparsely Annotated Label.png' | relative_url }}\" alt="Multispectral Pedestrian Detection with Sparsely Annotated Label" loading="lazy">
+                        <img src="{{ '/assets/img/publication/2025/2025AAAIMultispectral-Pedestrian-Detection-with-Sparsely-Annotated-Label.png' | relative_url }}" alt="Multispectral Pedestrian Detection with Sparsely Annotated Label" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -357,7 +357,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-                        <img src=\"{{ '/assets/img/publication/2025/[2025AAAI]Watch Video, Catch Keyword Context-aware Keyword Attention for Moment Retrieval and Highlight Detection.png' | relative_url }}\" alt="Watch Video, Catch Keyword: Context-aware Keyword Attention for Moment Retrieval and Highlight Detection" loading="lazy">
+                        <img src="{{ '/assets/img/publication/2025/2025AAAIWatch-Video-Catch-Keyword-Context-aware-Keyword-Attention-for-Moment-Retrieval-and-Highlight-Detection.png' | relative_url }}" alt="Watch Video, Catch Keyword: Context-aware Keyword Attention for Moment Retrieval and Highlight Detection" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -378,7 +378,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-                        <img src=\"{{ '/assets/img/publication/2026/[2026TMM]SSMPD Semi-Supervised Learning for Multispectral Pedestrian Detection.png' | relative_url }}\" alt="SSMPD: Semi-Supervised Learning for Multispectral Pedestrian Detection" loading="lazy">
+                        <img src="{{ '/assets/img/publication/2026/2026TMMSSMPD-Semi-Supervised-Learning-for-Multispectral-Pedestrian-Detection.png' | relative_url }}" alt="SSMPD: Semi-Supervised Learning for Multispectral Pedestrian Detection" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -398,7 +398,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-                        <img src=\"{{ '/assets/img/publication/2025/[2025TNNLS]Enabling Visual Object Detection with Object Sounds via Visual Modality Recalling Memory.png' | relative_url }}\" alt="Enabling Visual Object Detection with Object Sounds via Visual Modality Recalling Memory" loading="lazy">
+                        <img src="{{ '/assets/img/publication/2025/2025TNNLSEnabling-Visual-Object-Detection-with-Object-Sounds-via-Visual-Modality-Recalling-Memory.png' | relative_url }}" alt="Enabling Visual Object Detection with Object Sounds via Visual Modality Recalling Memory" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -418,7 +418,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-                        <img src=\"{{ '/assets/img/publication/2025/[2025TCSVT]Spatial Mask-based Adaptive Robust Training for Video Object Segmentation with Noisy Labels.png' | relative_url }}\" alt="Spatial Mask-based Adaptive Robust Training for Video Object Segmentation with Noisy Labels" loading="lazy">
+                        <img src="{{ '/assets/img/publication/2025/2025TCSVTSpatial-Mask-based-Adaptive-Robust-Training-for-Video-Object-Segmentation-with-Noisy-Labels.png' | relative_url }}" alt="Spatial Mask-based Adaptive Robust Training for Video Object Segmentation with Noisy Labels" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -463,7 +463,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <img src=\"{{ '/assets/img/publication/2025/[2025방미공]Moment Retrieval and Highlight Detection Framework via Semantic Alignment of Phrases.png' | relative_url }}\" alt="Moment Retrieval and Highlight Detection Framework via Semantic Alignment of Phrases" loading="lazy">
+            <img src="{{ '/assets/img/publication/2025/2025방미공Moment-Retrieval-and-Highlight-Detection-Framework-via-Semantic-Alignment-of-Phrases.png' | relative_url }}" alt="Moment Retrieval and Highlight Detection Framework via Semantic Alignment of Phrases" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -483,7 +483,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <img src=\"{{ '/assets/img/publication/2025/[2025방미공]Grounded VideoQA via Optimal Transport-based Fine-Grained.png' | relative_url }}\" alt="Grounded VideoQA via Optimal Transport-based Fine-Grained" loading="lazy">
+            <img src="{{ '/assets/img/publication/2025/2025방미공Grounded-VideoQA-via-Optimal-Transport-based-Fine-Grained.png' | relative_url }}" alt="Grounded VideoQA via Optimal Transport-based Fine-Grained" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -503,7 +503,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <img src=\"{{ '/assets/img/publication/2025/[2025군사기술]Vision Language Model Based Approach for Change Captioning.png' | relative_url }}\" alt="Vision Language Model Based Approach for Change Captioning" loading="lazy">
+            <img src="{{ '/assets/img/publication/2025/2025군사기술Vision-Language-Model-Based-Approach-for-Change-Captioning.png' | relative_url }}" alt="Vision Language Model Based Approach for Change Captioning" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -523,7 +523,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <img src=\"{{ '/assets/img/publication/2025/[2025]Mixed Sound Source Localization via Audio-Visual Information Fusion.png' | relative_url }}\" alt="Mixed Sound Source Localization via Audio-Visual Information Fusion" loading="lazy">
+            <img src="{{ '/assets/img/publication/2025/2025Mixed-Sound-Source-Localization-via-Audio-Visual-Information-Fusion.png' | relative_url }}" alt="Mixed Sound Source Localization via Audio-Visual Information Fusion" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -543,7 +543,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <img src=\"{{ '/assets/img/publication/2025/[2025방미공]Video Moment Retrieval and Highlight Detection via Effective Fusion of Captions Generated by Vision-Language Models.png' | relative_url }}\" alt="Video Moment Retrieval and Highlight Detection via Effective Fusion of Captions Generated by Vision-Language Models" loading="lazy">
+            <img src="{{ '/assets/img/publication/2025/2025방미공Video-Moment-Retrieval-and-Highlight-Detection-via-Effective-Fusion-of-Captions-Generated-by-Vision-Language-Models.png' | relative_url }}" alt="Video Moment Retrieval and Highlight Detection via Effective Fusion of Captions Generated by Vision-Language Models" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -563,7 +563,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <img src=\"{{ '/assets/img/publication/2025/[2025방미공]The Necessity of Training Strategies for Monocular 3D Object Detection under Adverse Weather Conditions.png' | relative_url }}\" alt="The Necessity of Training Strategies for Monocular 3D Object Detection under Adverse Weather Conditions" loading="lazy">
+            <img src="{{ '/assets/img/publication/2025/2025방미공The-Necessity-of-Training-Strategies-for-Monocular-3D-Object-Detection-under-Adverse-Weather-Conditions.png' | relative_url }}" alt="The Necessity of Training Strategies for Monocular 3D Object Detection under Adverse Weather Conditions" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -583,7 +583,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <img src=\"{{ '/assets/img/publication/2025/[2025방미공]A Semi-Supervised Learning Framework for Rain-Robust Multispectral Pedestrian Detection with Limited Labels.png' | relative_url }}\" alt="A Semi-Supervised Learning Framework for Rain-Robust Multispectral Pedestrian Detection with Limited Labels" loading="lazy">
+            <img src="{{ '/assets/img/publication/2025/2025방미공A-Semi-Supervised-Learning-Framework-for-Rain-Robust-Multispectral-Pedestrian-Detection-with-Limited-Labels.png' | relative_url }}" alt="A Semi-Supervised Learning Framework for Rain-Robust Multispectral Pedestrian Detection with Limited Labels" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -603,7 +603,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <img src=\"{{ '/assets/img/publication/2025/[2025방미공]Performance Evaluation and Analysis of Visual Information Removal in Dense Video Captioning.png' | relative_url }}\" alt="Performance Evaluation and Analysis of Visual Information Removal in Dense Video Captioning" loading="lazy">
+            <img src="{{ '/assets/img/publication/2025/2025방미공Performance-Evaluation-and-Analysis-of-Visual-Information-Removal-in-Dense-Video-Captioning.png' | relative_url }}" alt="Performance Evaluation and Analysis of Visual Information Removal in Dense Video Captioning" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -623,7 +623,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <img src=\"{{ '/assets/img/publication/2025/[2025방미공]Siamease Network-Based Knowledge Distillation Method for Domain-Robust Visual Question Answering.png' | relative_url }}\" alt="Siamese Network-Based Knowledge Distillation Method for Domain-Robust Visual Question Answering" loading="lazy">
+            <img src="{{ '/assets/img/publication/2025/2025방미공Siamease-Network-Based-Knowledge-Distillation-Method-for-Domain-Robust-Visual-Question-Answering.png' | relative_url }}" alt="Siamese Network-Based Knowledge Distillation Method for Domain-Robust Visual Question Answering" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -643,7 +643,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <img src=\"{{ '/assets/img/publication/2025/[2025방미공]Moment Retrieval and Highlight Detection via Keyword Extraction from Natural Language.png' | relative_url }}\" alt="Moment Retrieval and Highlight Detection via Keyword Extraction from Natural Language" loading="lazy">
+            <img src="{{ '/assets/img/publication/2025/2025방미공Moment-Retrieval-and-Highlight-Detection-via-Keyword-Extraction-from-Natural-Language.png' | relative_url }}" alt="Moment Retrieval and Highlight Detection via Keyword Extraction from Natural Language" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -663,7 +663,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <img src=\"{{ '/assets/img/publication/2025/[2025방미공]A Real time Free-Viewpoint Videos Streaming Model Robust to Fast-Moving Objects.png' | relative_url }}\" alt="A Real-time Free-Viewpoint Videos Streaming Model Robust to Fast-Moving Objects" loading="lazy">
+            <img src="{{ '/assets/img/publication/2025/2025방미공A-Real-time-Free-Viewpoint-Videos-Streaming-Model-Robust-to-Fast-Moving-Objects.png' | relative_url }}" alt="A Real-time Free-Viewpoint Videos Streaming Model Robust to Fast-Moving Objects" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -683,7 +683,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <img src=\"{{ '/assets/img/publication/2025/[2025정보과학회논문지]Hierarchical Semantic Prompt Design for Robust Open-Vocabulary Object Detection.png' | relative_url }}\" alt="Hierarchical Semantic Prompt Design for Robust Open-Vocabulary Object Detection" loading="lazy">
+            <img src="{{ '/assets/img/publication/2025/2025정보과학회논문지Hierarchical-Semantic-Prompt-Design-for-Robust-Open-Vocabulary-Object-Detection.png' | relative_url }}" alt="Hierarchical Semantic Prompt Design for Robust Open-Vocabulary Object Detection" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -705,7 +705,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-                        <img src=\"{{ '/assets/img/publication/2024/[2024ECCV]Learning Trimodal Relation for Audio-Visual Question Answering with Missing Modality.png' | relative_url }}\" alt="Learning Trimodal Relation for Audio-Visual Question Answering with Missing Modality" loading="lazy">
+                        <img src="{{ '/assets/img/publication/2024/2024ECCVLearning-Trimodal-Relation-for-Audio-Visual-Question-Answering-with-Missing-Modality.png' | relative_url }}" alt="Learning Trimodal Relation for Audio-Visual Question Answering with Missing Modality" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -725,7 +725,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-                        <img src=\"{{ '/assets/img/publication/2024/[2024ECCV]MonoWAD Weather-Adaptive Diffusion Model for Robust Monocular 3D Object Detection.png' | relative_url }}\" alt="MonoWAD: Weather-Adaptive Diffusion Model for Robust Monocular 3D Object Detection" loading="lazy">
+                        <img src="{{ '/assets/img/publication/2024/2024ECCVMonoWAD-Weather-Adaptive-Diffusion-Model-for-Robust-Monocular-3D-Object-Detection.png' | relative_url }}" alt="MonoWAD: Weather-Adaptive Diffusion Model for Robust Monocular 3D Object Detection" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -746,7 +746,7 @@ nav: false
         <div class="publication-card">
           <div class="card-image">
             <div class="tag oral">Oral</div>
-                        <img src=\"{{ '/assets/img/publication/2024/[2024ECCV]Towards Model-Agnostic Dataset Condensation by Heterogeneous Models.png' | relative_url }}\" alt="Towards Model-Agnostic Dataset Condensation by Heterogeneous Models" loading="lazy">
+                        <img src="{{ '/assets/img/publication/2024/2024ECCVTowards-Model-Agnostic-Dataset-Condensation-by-Heterogeneous-Models.png' | relative_url }}" alt="Towards Model-Agnostic Dataset Condensation by Heterogeneous Models" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -766,7 +766,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-                        <img src=\"{{ '/assets/img/publication/2024/[2024CVPR]Learning to Visually Localize Sound Sources from Mixtures without Prior Source Knowledge.png' | relative_url }}\" alt="Learning to Visually Localize Sound Sources from Mixtures without Prior Source Knowledge" loading="lazy">
+                        <img src="{{ '/assets/img/publication/2024/2024CVPRLearning-to-Visually-Localize-Sound-Sources-from-Mixtures-without-Prior-Source-Knowledge.png' | relative_url }}" alt="Learning to Visually Localize Sound Sources from Mixtures without Prior Source Knowledge" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -786,7 +786,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-                        <img src=\"{{ '/assets/img/publication/2024/[2024ICASSP]Enhancing Audio-Visual Question Answering with Missing Modality via Trans-Modal Associative Learning.png' | relative_url }}\" alt="Enhancing Audio-Visual Question Answering with Missing Modality via Trans-Modal Associative Learning" loading="lazy">
+                        <img src="{{ '/assets/img/publication/2024/2024ICASSPEnhancing-Audio-Visual-Question-Answering-with-Missing-Modality-via-Trans-Modal-Associative-Learning.png' | relative_url }}" alt="Enhancing Audio-Visual Question Answering with Missing Modality via Trans-Modal Associative Learning" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -806,7 +806,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-                        <img src=\"{{ '/assets/img/publication/2024/[2024IEEE]Robust Airway Generation Labeling with Airway Segmentation for Reliable Airway Assessment.png' | relative_url }}\" alt="Robust Airway Generation Labeling with Airway Segmentation for Reliable Airway Assessment" loading="lazy">
+                        <img src="{{ '/assets/img/publication/2024/2024IEEERobust-Airway-Generation-Labeling-with-Airway-Segmentation-for-Reliable-Airway-Assessment.png' | relative_url }}" alt="Robust Airway Generation Labeling with Airway Segmentation for Reliable Airway Assessment" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -828,7 +828,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <img src=\"{{ '/assets/img/publication/2024/[2024KSC]Video Moment Retrieval and Highlight Detection Using Captions Generated by Multimodal Large Language Models.png' | relative_url }}\" alt="Video Moment Retrieval and Highlight Detection Using Captions Generated by Multimodal Large Language Models" loading="lazy">
+            <img src="{{ '/assets/img/publication/2024/2024KSCVideo-Moment-Retrieval-and-Highlight-Detection-Using-Captions-Generated-by-Multimodal-Large-Language-Models.png' | relative_url }}" alt="Video Moment Retrieval and Highlight Detection Using Captions Generated by Multimodal Large Language Models" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -848,7 +848,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <img src=\"{{ '/assets/img/publication/2024/[2024KCC]Study For Automatic Pedestrian Data Augmented Learning Technique For Robust Multispectral Pedestrian Detection.png' | relative_url }}\" alt="Study For Automatic Pedestrian Data Augmented Learning Technique For Robust Multispectral Pedestrian Detection" loading="lazy">
+            <img src="{{ '/assets/img/publication/2024/2024KCCStudy-For-Automatic-Pedestrian-Data-Augmented-Learning-Technique-For-Robust-Multispectral-Pedestrian-Detection.png' | relative_url }}" alt="Study For Automatic Pedestrian Data Augmented Learning Technique For Robust Multispectral Pedestrian Detection" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -868,7 +868,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <img src=\"{{ '/assets/img/publication/2024/[2024KCC]Robust Video Moment Retrieval and Highlight Detection with Using Large Vision-Language Model.png' | relative_url }}\" alt="Robust Video Moment Retrieval and Highlight Detection with Using Large Vision-Language Model" loading="lazy">
+            <img src="{{ '/assets/img/publication/2024/2024KCCRobust-Video-Moment-Retrieval-and-Highlight-Detection-with-Using-Large-Vision-Language-Model.png' | relative_url }}" alt="Robust Video Moment Retrieval and Highlight Detection with Using Large Vision-Language Model" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -888,7 +888,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <img src=\"{{ '/assets/img/publication/2024/[2024]Robust 3D Object Detection Using 2D-Based Object Detection Information and Symmetry Knowledge.png' | relative_url }}\" alt="Robust 3D Object Detection Using 2D-Based Object Detection Information and Symmetry Knowledge" loading="lazy">
+            <img src="{{ '/assets/img/publication/2024/2024Robust-3D-Object-Detection-Using-2D-Based-Object-Detection-Information-and-Symmetry-Knowledge.png' | relative_url }}" alt="Robust 3D Object Detection Using 2D-Based Object Detection Information and Symmetry Knowledge" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -908,7 +908,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <img src=\"{{ '/assets/img/publication/2024/[2024방미공]Efficient Sampling Method for Repetitive Data for Label Data Selection In Multispectral Pedestrian Detection.png' | relative_url }}\" alt="Efficient Sampling Method for Repetitive Data for Label Data Selection In Multispectral Pedestrian Detection" loading="lazy">
+            <img src="{{ '/assets/img/publication/2024/2024방미공Efficient-Sampling-Method-for-Repetitive-Data-for-Label-Data-Selection-In-Multispectral-Pedestrian-Detection.png' | relative_url }}" alt="Efficient Sampling Method for Repetitive Data for Label Data Selection In Multispectral Pedestrian Detection" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -928,7 +928,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <img src=\"{{ '/assets/img/publication/2024/[2024방미공]Effective Change Captioning via Feature Map Restoration in Noisy Environments.png' | relative_url }}\" alt="Effective Change Captioning via Feature Map Restoration in Noisy Environments" loading="lazy">
+            <img src="{{ '/assets/img/publication/2024/2024방미공Effective-Change-Captioning-via-Feature-Map-Restoration-in-Noisy-Environments.png' | relative_url }}" alt="Effective Change Captioning via Feature Map Restoration in Noisy Environments" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -948,7 +948,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <img src=\"{{ '/assets/img/publication/2024/[2024]Handling Missing Modality Using Multimodal Relational Knowledge.png' | relative_url }}\" alt="Handling Missing Modality Using Multimodal Relational Knowledge" loading="lazy">
+            <img src="{{ '/assets/img/publication/2024/2024Handling-Missing-Modality-Using-Multimodal-Relational-Knowledge.png' | relative_url }}" alt="Handling Missing Modality Using Multimodal Relational Knowledge" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -970,7 +970,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-                        <img src=\"{{ '/assets/img/publication/2023/[2023ACMM]Audio-Visual Spatial Integration and Recursive Attention for Robust Sound Source Localization.png' | relative_url }}\" alt="Audio-Visual Spatial Integration and Recursive Attention for Robust Sound Source Localization" loading="lazy">
+                        <img src="{{ '/assets/img/publication/2023/2023ACMMAudio-Visual-Spatial-Integration-and-Recursive-Attention-for-Robust-Sound-Source-Localization.png' | relative_url }}" alt="Audio-Visual Spatial Integration and Recursive Attention for Robust Sound Source Localization" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -990,7 +990,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-                        <img src=\"{{ '/assets/img/publication/2023/[2023ICCV]Online Class Incremental Learning on Stochastic Blurry Task Boundary via Mask and Visual Prompt Tuning.png' | relative_url }}\" alt="Online Class Incremental Learning on Stochastic Blurry Task Boundary via Mask and Visual Prompt Tuning" loading="lazy">
+                        <img src="{{ '/assets/img/publication/2023/2023ICCVOnline-Class-Incremental-Learning-on-Stochastic-Blurry-Task-Boundary-via-Mask-and-Visual-Prompt-Tuning.png' | relative_url }}" alt="Online Class Incremental Learning on Stochastic Blurry Task Boundary via Mask and Visual Prompt Tuning" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -1010,7 +1010,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-                        <img src=\"{{ '/assets/img/publication/2023/[2023SCIE]Stereoscopic Vision Recalling Memory for Monocular 3D Object Detection.png' | relative_url }}\" alt="Stereoscopic Vision Recalling Memory for Monocular 3D Object Detection" loading="lazy">
+                        <img src="{{ '/assets/img/publication/2023/2023SCIEStereoscopic-Vision-Recalling-Memory-for-Monocular-3D-Object-Detection.png' | relative_url }}" alt="Stereoscopic Vision Recalling Memory for Monocular 3D Object Detection" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -1030,7 +1030,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-                        <img src=\"{{ '/assets/img/publication/2023/[2023ICIP]Robust Multispectral Pedestrian Detection Via Spectral Position-Free Feature Mapping.png' | relative_url }}\" alt="Robust Multispectral Pedestrian Detection Via Spectral Position-Free Feature Mapping" loading="lazy">
+                        <img src="{{ '/assets/img/publication/2023/2023ICIPRobust-Multispectral-Pedestrian-Detection-Via-Spectral-Position-Free-Feature-Mapping.png' | relative_url }}" alt="Robust Multispectral Pedestrian Detection Via Spectral Position-Free Feature Mapping" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -1050,7 +1050,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-                        <img src=\"{{ '/assets/img/publication/2023/[2023ICASSP]Towards Robust Audio-Based Vehicle Detection via Importance-Aware Audio-Visual Learning.png' | relative_url }}\" alt="Towards Robust Audio-Based Vehicle Detection via Importance-Aware Audio-Visual Learning" loading="lazy">
+                        <img src="{{ '/assets/img/publication/2023/2023ICASSPTowards-Robust-Audio-Based-Vehicle-Detection-via-Importance-Aware-Audio-Visual-Learning.png' | relative_url }}" alt="Towards Robust Audio-Based Vehicle Detection via Importance-Aware Audio-Visual Learning" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -1070,7 +1070,7 @@ nav: false
       <div class="publication-item filter-international" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-                        <img src=\"{{ '/assets/img/publication/2023/[2023ICAASSP]Similarity Relation Preserving Cross-Modal Learning for Multispectral Pedestrian Detection Against Adversarial Attacks.png' | relative_url }}\" alt="Similarity Relation Preserving Cross-Modal Learning for Multispectral Pedestrian Detection Against Adversarial Attacks" loading="lazy">
+                        <img src="{{ '/assets/img/publication/2023/2023ICAASSPSimilarity-Relation-Preserving-Cross-Modal-Learning-for-Multispectral-Pedestrian-Detection-Against-Adversarial-Attacks.png' | relative_url }}" alt="Similarity Relation Preserving Cross-Modal Learning for Multispectral Pedestrian Detection Against Adversarial Attacks" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -1092,7 +1092,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <img src=\"{{ '/assets/img/publication/2023/[2023KSC]Multimodal Deap Learning for Korean Fake News Detection.png' | relative_url }}\" alt="Multimodal Deep Learning for Korean Fake News Detection" loading="lazy">
+            <img src="{{ '/assets/img/publication/2023/2023KSCMultimodal-Deap-Learning-for-Korean-Fake-News-Detection.png' | relative_url }}" alt="Multimodal Deep Learning for Korean Fake News Detection" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -1112,7 +1112,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <img src=\"{{ '/assets/img/publication/2023/[2023KSC]Multimodal Pedestrian Detection Using Attention and Multi Modal Guide.png' | relative_url }}\" alt="Multimodal Pedestrian Detection Using Attention and Multi Modal Guide" loading="lazy">
+            <img src="{{ '/assets/img/publication/2023/2023KSCMultimodal-Pedestrian-Detection-Using-Attention-and-Multi-Modal-Guide.png' | relative_url }}" alt="Multimodal Pedestrian Detection Using Attention and Multi Modal Guide" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -1132,7 +1132,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <img src=\"{{ '/assets/img/publication/2023/[2023]Single-Modal Pedestrian Detection Leveraging Multimodal Knowledge for Blackout Situations.png' | relative_url }}\" alt="Single-Modal Pedestrian Detection Leveraging Multimodal Knowledge for Blackout Situations" loading="lazy">
+            <img src="{{ '/assets/img/publication/2023/2023Single-Modal-Pedestrian-Detection-Leveraging-Multimodal-Knowledge-for-Blackout-Situations.png' | relative_url }}" alt="Single-Modal Pedestrian Detection Leveraging Multimodal Knowledge for Blackout Situations" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -1153,7 +1153,7 @@ nav: false
         <div class="publication-card">
           <div class="card-image">
             <div class="tag award">Best Paper</div>
-            <img src=\"{{ '/assets/img/publication/2023/[2023방미공]Effective 3D Object Detection using 2D Object Detection information.png' | relative_url }}\" alt="Effective 3D Object Detection using 2D Object Detection information" loading="lazy">
+            <img src="{{ '/assets/img/publication/2023/2023방미공Effective-3D-Object-Detection-using-2D-Object-Detection-information.png' | relative_url }}" alt="Effective 3D Object Detection using 2D Object Detection information" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -1174,7 +1174,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <img src=\"{{ '/assets/img/publication/2023/[2023방미공]Enhancing Multi-Modal Audio-Visual QA Model Performance via Single Modal Feature Maps with Added Noise input.png' | relative_url }}\" alt="Enhancing Multi-Modal Audio-Visual QA Model Performance via Single Modal Feature Maps with Added Noise Input" loading="lazy">
+            <img src="{{ '/assets/img/publication/2023/2023방미공Enhancing-Multi-Modal-Audio-Visual-QA-Model-Performance-via-Single-Modal-Feature-Maps-with-Added-Noise-input.png' | relative_url }}" alt="Enhancing Multi-Modal Audio-Visual QA Model Performance via Single Modal Feature Maps with Added Noise Input" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">
@@ -1196,7 +1196,7 @@ nav: false
       <div class="publication-item filter-domestic" data-aos="fade-up">
         <div class="publication-card">
           <div class="card-image">
-            <img src=\"{{ '/assets/img/publication/2022/[2022방미공]Automatic Notification of Dangerous Situations in Blind Spots via Image-based Pedestrian Detection using Deep Learning.png' | relative_url }}\" alt="Automatic Notification of Dangerous Situations in Blind Spots via Image-based Pedestrian Detection using Deep Learning" loading="lazy">
+            <img src="{{ '/assets/img/publication/2022/2022방미공Automatic-Notification-of-Dangerous-Situations-in-Blind-Spots-via-Image-based-Pedestrian-Detection-using-Deep-Learning.png' | relative_url }}" alt="Automatic Notification of Dangerous Situations in Blind Spots via Image-based Pedestrian Detection using Deep Learning" loading="lazy">
           </div>
           <div class="card-content">
             <div class="meta">

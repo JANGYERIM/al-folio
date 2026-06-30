@@ -9,7 +9,7 @@ nav: false
 
   <div class="lab-container section-title" data-aos="fade-up">
     <h2>Team</h2>
-    <div><span>Our Lab</span> <span class="description-title">Members</span></div>
+    <div><span>Our Lab</span> <span class="description-title">Professor</span></div>
   </div>
 
   <div class="lab-container">

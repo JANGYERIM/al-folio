@@ -62,19 +62,9 @@ nav: false
 
     <div class="about-col-image" data-aos="fade-up" data-aos-delay="300">
       <div class="about-single-image">
-        <img id="campus-img" src="" alt="Campus">
+        <img src="{{ '/assets/img/home/home.jpg' | relative_url }}" alt="Campus">
       </div>
     </div>
-
-    <script>
-      (function() {
-        var base = '{{ site.baseurl }}';
-        var imgs = [1,2,3,4,5,6,7].map(function(n) {
-          return base + '/assets/img/home/campus' + n + '.jpg';
-        });
-        document.getElementById('campus-img').src = imgs[Math.floor(Math.random() * imgs.length)];
-      })();
-    </script>
 
   </div>
 

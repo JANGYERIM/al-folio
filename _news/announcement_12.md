@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-4 papers are accepted to **CVPR 2026** (3 Main, 1 Findings). Congratulations!
+5 papers are accepted to **CVPR 2026** (1 Highlight, 3 Main, 1 Findings). Congratulations!

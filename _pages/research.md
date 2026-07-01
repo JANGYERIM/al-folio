@@ -33,7 +33,7 @@ nav: false
           <ul>
             <li><i class="bi bi-check2-circle"></i> Video Moment Retrieval &amp; Highlight Detection</li>
             <li><i class="bi bi-check2-circle"></i> Dense Video Captioning &amp; Change Captioning</li>
-            <li><i class="bi bi-check2-circle"></i> Video Question Answering &amp; Video Question Grounding</li>
+            <li><i class="bi bi-check2-circle"></i> Video Question Answering &amp; Grounded Video Question Answering</li>
           </ul>
           <p class="related-works"><strong>Related Works:</strong> CVPR'26<sup>(2)</sup>, AAAI'26<sup>ORAL</sup>, AAAI'26, CVPR'25, AAAI'25<sup>(2)</sup>, ECCV'24, CVPR'24, ACM MM'23</p>
         </div>

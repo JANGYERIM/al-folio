@@ -15,11 +15,17 @@
 # ── 2026 ──────────────────────────────────────
 - title: "2026 CVPR"
   category: study
-  cover: /assets/img/gallery/study/2026/cvpr2026/1.jpg
+  cover: /assets/img/gallery/study/2026/cvpr2026/CVPR0.jpg
   images:
-    - /assets/img/gallery/study/2026/cvpr2026/1.jpg
-    - /assets/img/gallery/study/2026/cvpr2026/2.jpg
-    - /assets/img/gallery/study/2026/cvpr2026/3.jpg
+    - /assets/img/gallery/study/2026/cvpr2026/CVPR0.jpg
+    - /assets/img/gallery/study/2026/cvpr2026/CVPR1.jpg
+    - /assets/img/gallery/study/2026/cvpr2026/CVPR2.jpg
+    - /assets/img/gallery/study/2026/cvpr2026/CVPR3.jpg
+    - /assets/img/gallery/study/2026/cvpr2026/CVPR4.jpg
+    - /assets/img/gallery/study/2026/cvpr2026/CVPR5.jpg
+    - /assets/img/gallery/study/2026/cvpr2026/CVPR6.jpg
+    - /assets/img/gallery/study/2026/cvpr2026/CVPR7.jpg
+    - /assets/img/gallery/study/2026/cvpr2026/8.jpg
 
 - title: "AAAI 2026"
   category: study
@@ -35,13 +41,21 @@
 
 - title: "2026 하계 워크샵 (제주도)"
   category: daily
-  cover: ""
-  images: []
+  cover: "/assets/img/gallery/daily/2026/26하계MT/26 하계MT/KakaoTalk_20260622_163939574.jpg"
+  images:
+    - "/assets/img/gallery/daily/2026/26하계MT/26 하계MT/KakaoTalk_20260622_163939574.jpg"
+    - "/assets/img/gallery/daily/2026/26하계MT/26 하계MT/KakaoTalk_20260622_163939574_01.jpg"
+    - "/assets/img/gallery/daily/2026/26하계MT/26 하계MT/KakaoTalk_20260622_163939574_02.jpg"
+    - "/assets/img/gallery/daily/2026/26하계MT/26 하계MT/KakaoTalk_20260622_163939574_05.jpg"
+    - "/assets/img/gallery/daily/2026/26하계MT/26 하계MT/KakaoTalk_20260622_163939574_06.jpg"
+    - "/assets/img/gallery/daily/2026/26하계MT/26 하계MT/KakaoTalk_20260622_163939574_07.jpg"
+    - "/assets/img/gallery/daily/2026/26하계MT/26 하계MT/하계MT.jpg"
+    - "/assets/img/gallery/daily/2026/26하계MT/26 하계MT/하계MT2.jpg"
 
-- title: "2025학년도 후기 학위수여식 (2026.02)"
-  category: daily
-  cover: ""
-  images: []
+# - title: "2025학년도 후기 학위수여식 (2026.02)"
+#   category: daily
+#   cover: ""
+#   images: []
 
 - title: "2026 스승의 날"
   category: daily
@@ -53,8 +67,15 @@
 
 - title: "2026 벚꽃놀이"
   category: daily
-  cover: ""
-  images: []
+  cover: "/assets/img/gallery/daily/2026/26벚꽃놀이/26년 벚꽃놀이/KakaoTalk_20260409_180239234.jpg"
+  images:
+    - "/assets/img/gallery/daily/2026/26벚꽃놀이/26년 벚꽃놀이/KakaoTalk_20260409_180239234.jpg"
+    - "/assets/img/gallery/daily/2026/26벚꽃놀이/26년 벚꽃놀이/KakaoTalk_20260409_180239234_03.jpg"
+    - "/assets/img/gallery/daily/2026/26벚꽃놀이/26년 벚꽃놀이/KakaoTalk_20260409_180239234_04.jpg"
+    - "/assets/img/gallery/daily/2026/26벚꽃놀이/26년 벚꽃놀이/KakaoTalk_20260409_180239234_05.jpg"
+    - "/assets/img/gallery/daily/2026/26벚꽃놀이/26년 벚꽃놀이/KakaoTalk_20260409_180239234_06.jpg"
+    - "/assets/img/gallery/daily/2026/26벚꽃놀이/26년 벚꽃놀이/KakaoTalk_20260409_180654984_02.jpg"
+    - "/assets/img/gallery/daily/2026/26벚꽃놀이/26년 벚꽃놀이/KakaoTalk_20260409_181035457.jpg"
 
 # ── 2025 ──────────────────────────────────────
 - title: "한국방송미디어공학회 2025 (동계)"
@@ -103,10 +124,10 @@
     - /assets/img/gallery/study/2025/CVPR2025/KakaoTalk_20250709_221350921_03.jpg
     - /assets/img/gallery/study/2025/CVPR2025/KakaoTalk_20250709_221350921_04.jpg
 
-- title: "AAAI 2025"
-  category: study
-  cover: ""
-  images: []
+# - title: "AAAI 2025"
+#   category: study
+#   cover: ""
+#   images: []
 
 - title: "2025 동계 워크샵 (에버랜드)"
   category: daily
@@ -156,41 +177,41 @@
     - /assets/img/gallery/daily/2025/2025하계워크샵/카페단체샷.jpg
     - /assets/img/gallery/daily/2025/2025하계워크샵/햄찬.jpg
 
-- title: "2025 경희대학교 축제 (4월)"
-  category: daily
-  cover: ""
-  images: []
+# - title: "2025 경희대학교 축제 (4월)"
+#   category: daily
+#   cover: ""
+#   images: []
 
-- title: "2025 스승의날"
-  category: daily
-  cover: ""
-  images: []
+# - title: "2025 스승의날"
+#   category: daily
+#   cover: ""
+#   images: []
 
-- title: "2025 벚꽃놀이"
-  category: daily
-  cover: ""
-  images: []
+# - title: "2025 벚꽃놀이"
+#   category: daily
+#   cover: ""
+#   images: []
 
 # ── 2024 ──────────────────────────────────────
-- title: "ECCV 2024"
-  category: study
-  cover: ""
-  images: []
+# - title: "ECCV 2024"
+#   category: study
+#   cover: ""
+#   images: []
 
-- title: "한국방송미디어공학회 2024"
-  category: study
-  cover: ""
-  images: []
+# - title: "한국방송미디어공학회 2024"
+#   category: study
+#   cover: ""
+#   images: []
 
-- title: "한국 정보과학회 KCC 2024"
-  category: study
-  cover: ""
-  images: []
+# - title: "한국 정보과학회 KCC 2024"
+#   category: study
+#   cover: ""
+#   images: []
 
-- title: "ICASSP 2024"
-  category: study
-  cover: ""
-  images: []
+# - title: "ICASSP 2024"
+#   category: study
+#   cover: ""
+#   images: []
 
 - title: "CVPR 2024"
   category: study
@@ -198,48 +219,48 @@
   images:
     - /assets/img/gallery/study/2024/CVPR2024/cvpr202424.png
 
-- title: "2024 하계 워크샵 (제주도)"
-  category: daily
-  cover: ""
-  images: []
+# - title: "2024 하계 워크샵 (제주도)"
+#   category: daily
+#   cover: ""
+#   images: []
 
-- title: "2024 스승의날"
-  category: daily
-  cover: ""
-  images: []
+# - title: "2024 스승의날"
+#   category: daily
+#   cover: ""
+#   images: []
 
 # ── 2023 ──────────────────────────────────────
-- title: "한국 정보과학회 KCC 2023"
-  category: study
-  cover: ""
-  images: []
+# - title: "한국 정보과학회 KCC 2023"
+#   category: study
+#   cover: ""
+#   images: []
 
-- title: "ACMMM 2023"
-  category: study
-  cover: ""
-  images: []
+# - title: "ACMMM 2023"
+#   category: study
+#   cover: ""
+#   images: []
 
-- title: "ICCV 2023"
-  category: study
-  cover: ""
-  images: []
+# - title: "ICCV 2023"
+#   category: study
+#   cover: ""
+#   images: []
 
-- title: "한국방송미디어공학회 2023"
-  category: study
-  cover: ""
-  images: []
+# - title: "한국방송미디어공학회 2023"
+#   category: study
+#   cover: ""
+#   images: []
 
-- title: "IPIU 2023 신진연구자"
-  category: study
-  cover: ""
-  images: []
+# - title: "IPIU 2023 신진연구자"
+#   category: study
+#   cover: ""
+#   images: []
 
-- title: "2023 동계 워크샵 (남이섬)"
-  category: daily
-  cover: ""
-  images: []
+# - title: "2023 동계 워크샵 (남이섬)"
+#   category: daily
+#   cover: ""
+#   images: []
 
-- title: "동탄 호수공원 나들이 (22.12.27)"
-  category: daily
-  cover: ""
-  images: []
+# - title: "동탄 호수공원 나들이 (22.12.27)"
+#   category: daily
+#   cover: ""
+#   images: []

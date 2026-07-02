@@ -27,7 +27,7 @@
     - /assets/img/gallery/study/2026/cvpr2026/CVPR7.jpg
     - /assets/img/gallery/study/2026/cvpr2026/8.jpg
 
-- title: "AAAI 2026"
+- title: "2026 AAAI"
   category: study
   cover: /assets/img/gallery/study/2026/AAAI2026/20260123_131303.jpg
   images:
@@ -52,7 +52,7 @@
     - "/assets/img/gallery/daily/2026/26하계MT/26 하계MT/하계MT.jpg"
     - "/assets/img/gallery/daily/2026/26하계MT/26 하계MT/하계MT2.jpg"
 
-# - title: "2025학년도 후기 학위수여식 (2026.02)"
+# - title: "2026 학위수여식"
 #   category: daily
 #   cover: ""
 #   images: []
@@ -78,7 +78,7 @@
     - "/assets/img/gallery/daily/2026/26벚꽃놀이/26년 벚꽃놀이/KakaoTalk_20260409_181035457.jpg"
 
 # ── 2025 ──────────────────────────────────────
-- title: "한국방송미디어공학회 2025 (동계)"
+- title: "2025 한국방송미디어공학회 (동계)"
   category: study
   cover: /assets/img/gallery/study/2025/방미공2025(동계)/방미공2025_0.jpg
   images:
@@ -88,7 +88,7 @@
     - /assets/img/gallery/study/2025/방미공2025(동계)/방미공2025_3.jpg
     - /assets/img/gallery/study/2025/방미공2025(동계)/방미공2025_4.jpg
 
-- title: "KCCV 2025"
+- title: "2025 KCCV"
   category: study
   cover: /assets/img/gallery/study/2025/KCCV2025/KakaoTalk_20250808_143603961.jpg
   images:
@@ -101,7 +101,7 @@
     - /assets/img/gallery/study/2025/KCCV2025/KakaoTalk_20250808_143603961_06.jpg
     - /assets/img/gallery/study/2025/KCCV2025/KakaoTalk_20250808_143603961_07.jpg
 
-- title: "한국방송미디어공학회 2025 (하계)"
+- title: "2025 한국방송미디어공학회 (하계)"
   category: study
   cover: /assets/img/gallery/study/2025/방미공2025(하계)/0.jpg
   images:
@@ -114,7 +114,7 @@
     - /assets/img/gallery/study/2025/방미공2025(하계)/이찬.jpg
     - /assets/img/gallery/study/2025/방미공2025(하계)/정준영.jpg
 
-- title: "CVPR 2025"
+- title: "2025 CVPR"
   category: study
   cover: /assets/img/gallery/study/2025/CVPR2025/KakaoTalk_20250709_221350921.jpg
   images:
@@ -124,7 +124,7 @@
     - /assets/img/gallery/study/2025/CVPR2025/KakaoTalk_20250709_221350921_03.jpg
     - /assets/img/gallery/study/2025/CVPR2025/KakaoTalk_20250709_221350921_04.jpg
 
-# - title: "AAAI 2025"
+# - title: "2025 AAAI"
 #   category: study
 #   cover: ""
 #   images: []
@@ -152,7 +152,7 @@
     - "/assets/img/gallery/daily/2025/2025경희대축제/2025경희대학교 축제_3.jpg"
     - "/assets/img/gallery/daily/2025/2025경희대축제/2025경희대학교 축제_4.jpg"
 
-- title: "2024학년도 후기 학위수여식 (2025.08)"
+- title: "2025 학위수여식"
   category: daily
   cover: /assets/img/gallery/daily/2025/2025학위수여식/2025.08학위수여식_0.jpg
   images:
@@ -193,27 +193,27 @@
 #   images: []
 
 # ── 2024 ──────────────────────────────────────
-# - title: "ECCV 2024"
+# - title: "2024 ECCV"
 #   category: study
 #   cover: ""
 #   images: []
 
-# - title: "한국방송미디어공학회 2024"
+# - title: "2024 한국방송미디어공학회"
 #   category: study
 #   cover: ""
 #   images: []
 
-# - title: "한국 정보과학회 KCC 2024"
+# - title: "2024 한국 정보과학회 KCC"
 #   category: study
 #   cover: ""
 #   images: []
 
-# - title: "ICASSP 2024"
+# - title: "2024 ICASSP"
 #   category: study
 #   cover: ""
 #   images: []
 
-- title: "CVPR 2024"
+- title: "2024 CVPR"
   category: study
   cover: /assets/img/gallery/study/2024/CVPR2024/cvpr202424.png
   images:
@@ -230,27 +230,27 @@
 #   images: []
 
 # ── 2023 ──────────────────────────────────────
-# - title: "한국 정보과학회 KCC 2023"
+# - title: "2023 한국 정보과학회 KCC"
 #   category: study
 #   cover: ""
 #   images: []
 
-# - title: "ACMMM 2023"
+# - title: "2023 ACMMM"
 #   category: study
 #   cover: ""
 #   images: []
 
-# - title: "ICCV 2023"
+# - title: "2023 ICCV"
 #   category: study
 #   cover: ""
 #   images: []
 
-# - title: "한국방송미디어공학회 2023"
+# - title: "2023 한국방송미디어공학회"
 #   category: study
 #   cover: ""
 #   images: []
 
-# - title: "IPIU 2023 신진연구자"
+# - title: "2023 IPIU 신진연구자"
 #   category: study
 #   cover: ""
 #   images: []
@@ -260,7 +260,7 @@
 #   cover: ""
 #   images: []
 
-# - title: "동탄 호수공원 나들이 (22.12.27)"
+# - title: "2022 동탄 호수공원 나들이"
 #   category: daily
 #   cover: ""
 #   images: []

@@ -518,7 +518,7 @@ img { max-width: 100%; }
 }
 
 .about-section .about-col-text { flex: 0 0 34%; max-width: 34%; }
-.about-section .about-col-image { flex: 1; }
+.about-section .about-col-image { flex: 1; align-self: flex-start; }
 
 @media (max-width: 992px) {
   .about-section .about-inner { flex-direction: column; }

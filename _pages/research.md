@@ -25,8 +25,8 @@ nav: false
 
       <!-- ─── Multimodal Learning: Image(Video)-Text ─── -->
       <div class="research-item" data-aos="fade-up" data-aos-delay="50">
-        <div class="item-image" style="background: linear-gradient(135deg, #071530 0%, #0d2a6b 50%, #1044a8 100%);">
-          <i class="bi bi-chat-square-text"></i>
+        <div class="item-image" style="padding:0; overflow:hidden;">
+          <img src="{{ '/assets/img/research/videoResearch.png' | relative_url }}" alt="Multimodal Learning" style="width:100%; height:100%; object-fit:cover;">
         </div>
         <div class="item-content">
           <h3>Multimodal Learning<br><small style="font-size:0.85rem; font-weight:500; color:var(--accent-color);">Image(Video) – Text</small></h3>

@@ -26,10 +26,7 @@ nav: false
       <!-- ─── Multimodal AI ─── -->
       <div class="research-item" data-aos="fade-up" data-aos-delay="50">
         <div class="item-image" style="padding:0;">
-          <picture style="position:absolute; inset:0; width:100%; height:100%;">
-            <source srcset="{{ '/assets/img/research/multimodal_dark.png' | relative_url }}" media="(prefers-color-scheme: dark)">
-            <img src="{{ '/assets/img/research/multimodal_light.png' | relative_url }}" alt="Multimodal AI" style="width:100%; height:100%; object-fit:cover; z-index:0;">
-          </picture>
+          <img src="{{ '/assets/img/research/multimodal_dark.png' | relative_url }}" alt="Multimodal AI" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0;">
         </div>
         <div class="item-content">
           <h3>Multimodal AI</h3>
@@ -48,10 +45,7 @@ nav: false
       <!-- ─── Agentic AI ─── -->
       <div class="research-item" data-aos="fade-up" data-aos-delay="100">
         <div class="item-image" style="padding:0;">
-          <picture style="position:absolute; inset:0; width:100%; height:100%;">
-            <source srcset="{{ '/assets/img/research/AgenticAI_Dark.png' | relative_url }}" media="(prefers-color-scheme: dark)">
-            <img src="{{ '/assets/img/research/AgenticAI_white.png' | relative_url }}" alt="Agentic AI" style="width:100%; height:100%; object-fit:cover; z-index:0;">
-          </picture>
+          <img src="{{ '/assets/img/research/AgenticAI_Dark.png' | relative_url }}" alt="Agentic AI" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0;">
         </div>
         <div class="item-content">
           <h3>Agentic AI</h3>
@@ -68,10 +62,7 @@ nav: false
       <!-- ─── Autonomous Driving ─── -->
       <div class="research-item" data-aos="fade-up" data-aos-delay="150">
         <div class="item-image" style="padding:0;">
-          <picture style="position:absolute; inset:0; width:100%; height:100%;">
-            <source srcset="{{ '/assets/img/research/AutonomousDriving_dark.png' | relative_url }}" media="(prefers-color-scheme: dark)">
-            <img src="{{ '/assets/img/research/AutonomousDriving_light.png' | relative_url }}" alt="Autonomous Driving" style="width:100%; height:100%; object-fit:cover; z-index:0;">
-          </picture>
+          <img src="{{ '/assets/img/research/AutonomousDriving_dark.png' | relative_url }}" alt="Autonomous Driving" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0;">
         </div>
         <div class="item-content">
           <h3>Autonomous Driving</h3>

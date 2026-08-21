@@ -31,12 +31,10 @@ nav: false
         <div class="item-content">
           <h3>Multimodal AI</h3>
           <ul>
-            <li><i class="bi bi-check2-circle"></i> Video Moment Retrieval &amp; Highlight Detection</li>
-            <li><i class="bi bi-check2-circle"></i> Dense Video Captioning &amp; Change Captioning</li>
-            <li><i class="bi bi-check2-circle"></i> Video Question Answering &amp; Grounded Video QA</li>
-            <li><i class="bi bi-check2-circle"></i> Sound Source Localization</li>
-            <li><i class="bi bi-check2-circle"></i> Audio-Visual Question Answering</li>
-            <li><i class="bi bi-check2-circle"></i> Multimodal Emotion Recognition</li>
+            <li><i class="bi bi-check2-circle"></i> Image Understanding</li>
+            <li><i class="bi bi-check2-circle"></i> Video Understanding</li>
+            <li><i class="bi bi-check2-circle"></i> Audio-Visual Understanding</li>
+            <li><i class="bi bi-check2-circle"></i> Multimodal Human Understanding</li>
           </ul>
           <p class="related-works"><strong>Related Works:</strong> CVPR'26<sup>(3)</sup>, AAAI'26<sup>ORAL</sup>, AAAI'26, CVPR'25, AAAI'25<sup>(2)</sup>, ECCV'24, CVPR'24, ICASSP'26, ICASSP'24, ICASSP'23<sup>(2)</sup>, ACM MM'23</p>
         </div>
@@ -50,10 +48,9 @@ nav: false
         <div class="item-content">
           <h3>Agentic AI</h3>
           <ul>
-            <li><i class="bi bi-check2-circle"></i> Autonomous Reasoning &amp; Goal-directed Planning</li>
-            <li><i class="bi bi-check2-circle"></i> Multi-step Decision Making &amp; Tool Use</li>
-            <li><i class="bi bi-check2-circle"></i> Generalization across Tasks &amp; Domains</li>
-            <li><i class="bi bi-check2-circle"></i> Human–AI Collaboration &amp; Interaction</li>
+            <li><i class="bi bi-check2-circle"></i> Adaptive Reasoning & Planning &amp; Goal-directed Planning</li>
+            <li><i class="bi bi-check2-circle"></i> Multi-Agent Systems &amp; Tool Use</li>
+            <li><i class="bi bi-check2-circle"></i> Autonomous Task Execution &amp; Domains</li>
           </ul>
           <p class="related-works"><strong>Related Works:</strong> AAAI'26<sup>(2)</sup>, ECCV'24<sup>ORAL</sup>, ICCV'23, CVPR Findings'26, MedIA'26, TCSVT'25, ESA'25</p>
         </div>

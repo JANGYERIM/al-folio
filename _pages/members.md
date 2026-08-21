@@ -166,6 +166,18 @@ nav: false
         </div>
       </div>
 
+      <div class="team-member" data-aos="fade-up" data-aos-delay="100">
+        <div class="member-image">
+          <img src="{{ '/assets/img/team/Haesoo%20Jung.jpg' | relative_url }}" alt="Haesoo Jung">
+        </div>
+        <div class="member-content">
+          <h3>Haesoo Jung</h3>
+          <span class="member-role">Undergraduate Researcher</span>
+          <p class="member-research">Medical Image Processing</p>
+          <p class="member-email"><a href="mailto:haesu0920@khu.ac.kr">haesu0920@khu.ac.kr</a></p>
+        </div>
+      </div>
+
     </div><!-- end Graduate Students grid -->
 
 
@@ -188,17 +200,7 @@ nav: false
         </div>
       </div>
 
-      <div class="team-member" data-aos="fade-up" data-aos-delay="100">
-        <div class="member-image">
-          <img src="{{ '/assets/img/team/Haesoo%20Jung.jpg' | relative_url }}" alt="Haesoo Jung">
-        </div>
-        <div class="member-content">
-          <h3>Haesoo Jung</h3>
-          <span class="member-role">Undergraduate Researcher</span>
-          <p class="member-research">Medical Image Processing</p>
-          <p class="member-email"><a href="mailto:haesu0920@khu.ac.kr">haesu0920@khu.ac.kr</a></p>
-        </div>
-      </div>
+      
 
       <div class="team-member" data-aos="fade-up" data-aos-delay="150">
         <div class="member-image">

@@ -48,7 +48,7 @@ nav: false
         <div class="item-content">
           <h3>Agentic AI</h3>
           <ul>
-            <li><i class="bi bi-check2-circle"></i> Adaptive Reasoning &amp; & Planning /li>
+            <li><i class="bi bi-check2-circle"></i> Adaptive Reasoning & Planning &amp; </li>
             <li><i class="bi bi-check2-circle"></i> Multi-Agent Systems &amp; Tool Use</li>
             <li><i class="bi bi-check2-circle"></i> Autonomous Task Execution &amp; Domains</li>
           </ul>

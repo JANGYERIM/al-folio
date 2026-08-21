@@ -1280,15 +1280,6 @@ img { max-width: 100%; }
   margin-top: 1px;
 }
 
-.research .research-item .item-content .related-works {
-  margin-top: 16px;
-  padding-top: 14px;
-  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 88%);
-  font-size: 0.82rem;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
-  line-height: 1.65;
-}
-
 /* Research summary box */
 
 /* ─── Publications Section ─────────────────────────────── */

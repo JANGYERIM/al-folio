@@ -36,7 +36,6 @@ nav: false
             <li><i class="bi bi-check2-circle"></i> Audio-Visual Understanding</li>
             <li><i class="bi bi-check2-circle"></i> Multimodal Human Understanding</li>
           </ul>
-          <p class="related-works"><strong>Related Works:</strong> CVPR'26<sup>(3)</sup>, AAAI'26<sup>ORAL</sup>, AAAI'26, CVPR'25, AAAI'25<sup>(2)</sup>, ECCV'24, CVPR'24, ICASSP'26, ICASSP'24, ICASSP'23<sup>(2)</sup>, ACM MM'23</p>
         </div>
       </div>
 
@@ -52,7 +51,6 @@ nav: false
             <li><i class="bi bi-check2-circle"></i> Multi-Agent Systems &amp; Tool Use</li>
             <li><i class="bi bi-check2-circle"></i> Autonomous Task Execution &amp; Domains</li>
           </ul>
-          <p class="related-works"><strong>Related Works:</strong> AAAI'26<sup>(2)</sup>, ECCV'24<sup>ORAL</sup>, ICCV'23, CVPR Findings'26, MedIA'26, TCSVT'25, ESA'25</p>
         </div>
       </div>
 
@@ -68,7 +66,6 @@ nav: false
             <li><i class="bi bi-check2-circle"></i> 3D Object Detection</li>
             <li><i class="bi bi-check2-circle"></i> Pedestrian Detection</li>
           </ul>
-          <p class="related-works"><strong>Related Works:</strong> CVPR'26, ECCV'24<sup>(2)</sup>, CVPR'24, AAAI'25, TMM'25, TNNLS'25, TIP'23, ICIP'23</p>
         </div>
       </div>
 
